@@ -13,7 +13,7 @@ export default function ChallengeDetails({ params }) {
 	https://www.freecodecamp.org/news/destructuring-in-javascript/
 
 	*/
-	console.log("params => ", params);
+	// console.log("params => ", params);
 	/*
 	console.log("params => ", params);
 	params = EL OBJETO Y SU VALOR
@@ -23,7 +23,7 @@ export default function ChallengeDetails({ params }) {
 	console.log(
 		"=================================================="
 	);
-	console.log("challengeDetails =>", challengeDetails);
+	// console.log("challengeDetails =>", challengeDetails);
 	/*
 	console.log("challengeDetails =>", challengeDetails);
 	challengeDetails = SOLO EL VALOR
@@ -32,10 +32,10 @@ export default function ChallengeDetails({ params }) {
 	console.log(
 		"=================================================="
 	);
-	console.log(
-		"challenges[challengeDetails]===>",
-		challenges[challengeDetails]
-	);
+	// console.log(
+	// 	"challenges[challengeDetails]===>",
+	// 	challenges[challengeDetails]
+	// );
 	/*
 	console.log(
 		"challenges[challengeDetails]===>",
@@ -46,7 +46,7 @@ export default function ChallengeDetails({ params }) {
 	console.log(
 		"=================================================="
 	);
-	console.log("All Challenges", challenges);
+	// console.log("All Challenges", challenges);
 	/*
 	console.log("All Challenges", challenges);
 	challenges= TODAS LOS OBJENTOS CON SUS PROPIEDADES Y VALORES
@@ -58,6 +58,19 @@ export default function ChallengeDetails({ params }) {
 			<h1 className="" key={challenge.id}>
 				{challenge.name}
 			</h1>
+			<div>
+				{challenge.description.map((intructions) => {
+					console.log(
+						"challenge.description ===> ",
+						challenge.description
+					);
+					return (
+						<p className="mt-[1rem]" key={intructions}>
+							{intructions}
+						</p>
+					);
+				})}
+			</div>
 		</div>
 	);
 }
