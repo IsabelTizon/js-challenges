@@ -1,0 +1,42 @@
+export const challenges = [
+	{
+		id: 0,
+		name: "uno",
+		description: ["kkkkkkk", "kkkkkkk"],
+		methods: ["sss", "hhhhhh"],
+		url: "uuuuu",
+		github: "ggggg",
+	},
+	{
+		id: 1,
+		name: "dos",
+		description: ["kkkkkkk", "kkkkkkk"],
+		methods: ["sss", "hhhhhh"],
+		url: "uuuuu",
+		github: "ggggg",
+	},
+	{
+		id: 2,
+		name: "tres",
+		description: ["kkkkkkk", "kkkkkkk"],
+		methods: ["sss", "hhhhhh"],
+		url: "uuuuu",
+		github: "ggggg",
+	},
+	{
+		id: 3,
+		name: "cuatro",
+		description: ["kkkkkkk", "kkkkkkk"],
+		methods: ["sss", "hhhhhh"],
+		url: "uuuuu",
+		github: "ggggg",
+	},
+	{
+		id: 4,
+		name: "cinco",
+		description: ["kkkkkkk", "kkkkkkk"],
+		methods: ["sss", "hhhhhh"],
+		url: "uuuuu",
+		github: "ggggg",
+	},
+];
