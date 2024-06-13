@@ -7,14 +7,15 @@ export const metadata = {
 };
 
 export default function Scrimba() {
+	// Check in the terminal if my array is working before maping it
 	console.log("challenges", challenges);
 	return (
 		<div>
-			<div>Hello World!</div>
+			<div>JavaScript Interview Challenges</div>
 			<div className="flex flex-col">
 				{challenges.map((challenge) => (
 					<div className="" key={challenge.id}>
-						<h3>{challenge.name}</h3>
+						<h3>- {challenge.name}</h3>
 					</div>
 				))}
 			</div>
