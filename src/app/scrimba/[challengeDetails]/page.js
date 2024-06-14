@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { challenges } from "../../../components/challenges";
 
 export default function ChallengeDetails({ params }) {
@@ -71,6 +72,13 @@ export default function ChallengeDetails({ params }) {
 					);
 				})}
 			</div>
+			<Link
+				key={challenge.github}
+				target="_blank"
+				href="https://github.com/IsabelTizon/js-challenges/blob/main/src/app/scrimba/courses/panicFunction.js"
+			>
+				github
+			</Link>
 		</div>
 	);
 }
