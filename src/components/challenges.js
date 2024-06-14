@@ -14,15 +14,16 @@ export const challenges = [
 			"console.log(panic('winter is coming'))",
 		],
 		methods: [".split()", " .join()"],
-		url: "uuuuu",
-		github: "ggggg",
+		img: "uuuuu",
+		github:
+			"https://github.com/IsabelTizon/js-challenges/blob/main/src/app/scrimba/courses/panicFunction.js",
 	},
 	{
 		id: 1,
 		name: "dos",
 		description: ["kkkkkkk", "kkkkkkk"],
 		methods: ["sss", "hhhhhh"],
-		url: "uuuuu",
+		img: "uuuuu",
 		github: "ggggg",
 	},
 	{
@@ -30,7 +31,7 @@ export const challenges = [
 		name: "tres",
 		description: ["kkkkkkk", "kkkkkkk"],
 		methods: ["sss", "hhhhhh"],
-		url: "uuuuu",
+		img: "uuuuu",
 		github: "ggggg",
 	},
 	{
@@ -38,7 +39,7 @@ export const challenges = [
 		name: "cuatro",
 		description: ["kkkkkkk", "kkkkkkk"],
 		methods: ["sss", "hhhhhh"],
-		url: "uuuuu",
+		img: "uuuuu",
 		github: "ggggg",
 	},
 	{
@@ -46,7 +47,7 @@ export const challenges = [
 		name: "cinco",
 		description: ["kkkkkkk", "kkkkkkk"],
 		methods: ["sss", "hhhhhh"],
-		url: "uuuuu",
+		img: "uuuuu",
 		github: "ggggg",
 	},
 ];
