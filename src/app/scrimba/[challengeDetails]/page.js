@@ -1,6 +1,6 @@
 import Link from "next/link";
 import { challenges } from "../../../components/challenges";
-import { panic } from "../courses/panic";
+import { panic } from "../exercises/panic";
 
 export default function ChallengeDetails({ params }) {
 	console.log(panic("I'm almost out of coffee"));

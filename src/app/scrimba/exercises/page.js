@@ -1,5 +1,5 @@
 "use client";
-import { panic } from "../courses/panic";
+import { panic } from "./panic";
 
 export default function courseConsole() {
 	return <div>Try your exercises on the client side!</div>;
