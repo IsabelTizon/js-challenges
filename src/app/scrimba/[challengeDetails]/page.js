@@ -1,6 +1,5 @@
 import Link from "next/link";
 import { challenges } from "../../../components/challenges";
-import { panic } from "../exercises/panic";
 
 export default function ChallengeDetails({ params }) {
 	const { challengeDetails } = params;
@@ -85,11 +84,7 @@ export default function ChallengeDetails({ params }) {
 					return <p key={hints}> {hints}</p>;
 				})}
 			</div>
-			<Link
-				key={challenge.github}
-				target="_blank"
-				href="https://github.com/IsabelTizon/js-challenges/blob/main/src/app/scrimba/courses/panicFunction.js"
-			>
+			<Link target="_blank" href={challenge.github}>
 				github
 			</Link>
 		</div>

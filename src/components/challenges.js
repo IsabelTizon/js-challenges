@@ -16,7 +16,7 @@ export const challenges = [
 		methods: [".split()", " .join()"],
 		img: "uuuuu",
 		github:
-			"https://github.com/IsabelTizon/js-challenges/blob/main/src/app/scrimba/courses/panicFunction.js",
+			"https://github.com/IsabelTizon/js-challenges/blob/main/src/app/scrimba/exercises/panic.js",
 	},
 	{
 		id: 1,
@@ -32,7 +32,8 @@ export const challenges = [
 		],
 		methods: ["endsWith", "slice"],
 		img: "uuuuu",
-		github: "ggggg",
+		github:
+			"https://github.com/IsabelTizon/js-challenges/blob/main/src/app/scrimba/exercises/whispering.js",
 	},
 	{
 		id: 2,
