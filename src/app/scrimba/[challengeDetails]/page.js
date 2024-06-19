@@ -3,9 +3,6 @@ import { challenges } from "../../../components/challenges";
 import { panic } from "../exercises/panic";
 
 export default function ChallengeDetails({ params }) {
-	console.log(panic("I'm almost out of coffee"));
-	console.log(panic("winter is coming"));
-
 	const { challengeDetails } = params;
 
 	const challenge = challenges[challengeDetails];
@@ -59,11 +56,13 @@ export default function ChallengeDetails({ params }) {
 
 	return (
 		<div>
-			Hello World!
 			<h1 className="" key={challenge.id}>
+				{" "}
+				<span className="font-bold">Instructions </span>
 				{challenge.name}
 			</h1>
 			<div>
+				{" "}
 				{challenge.description.map((intructions) => {
 					console.log(
 						"challenge.description ===> ",
@@ -74,6 +73,16 @@ export default function ChallengeDetails({ params }) {
 							{intructions}
 						</p>
 					);
+				})}
+			</div>
+			<p className="font-bold">Methods: </p>
+			<div>
+				{challenge.methods.map((hints) => {
+					console.log(
+						"challenge.methods ===> ",
+						challenge.methods
+					);
+					return <p key={hints}> {hints}</p>;
 				})}
 			</div>
 			<Link
