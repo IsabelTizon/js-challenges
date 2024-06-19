@@ -1,7 +1,11 @@
 import Link from "next/link";
 import { challenges } from "../../../components/challenges";
+import { panic } from "../courses/panic";
 
 export default function ChallengeDetails({ params }) {
+	console.log(panic("I'm almost out of coffee"));
+	console.log(panic("winter is coming"));
+
 	const { challengeDetails } = params;
 
 	const challenge = challenges[challengeDetails];
