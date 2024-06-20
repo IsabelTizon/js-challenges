@@ -11,7 +11,7 @@ export default function courseConsole() {
 
 // 2) whispering
 console.log(whispering("PLEASE STOP SHOUTING."));
-console.log(whispering("MA'AM, this is a Wendy's!"));
+// console.log(whispering("MA'AM, this is a Wendy's!"));
 // 3) exercise
 // 4) exercise
 // 5) exercise
