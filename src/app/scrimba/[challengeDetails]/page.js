@@ -56,10 +56,9 @@ export default function ChallengeDetails({ params }) {
 	return (
 		<div>
 			<h1 className="" key={challenge.id}>
-				{" "}
-				<span className="font-bold">Instructions </span>
 				{challenge.name}
 			</h1>
+			<h2 className="font-bold">Instructions</h2>
 			<div>
 				{" "}
 				{challenge.description.map((intructions) => {
@@ -74,7 +73,32 @@ export default function ChallengeDetails({ params }) {
 					);
 				})}
 			</div>
-			<p className="font-bold">Methods: </p>
+			<h2 className="font-bold">Examples</h2>
+			<div>
+				{challenge.example.map((examples) => {
+					console.log(
+						"Challenge Example: ",
+						challenge.example
+					);
+					return (
+						<p className="mt-[1rem]" key={examples}>
+							{examples}
+						</p>
+					);
+				})}
+			</div>
+			<h2 className="font-bold">Test your function</h2>
+			<div>
+				{challenge.tester.map((testing) => {
+					console.log("Tester: ", challenge.tester);
+					return (
+						<p className="mt-[1rem]" key={testing}>
+							{testing}
+						</p>
+					);
+				})}
+			</div>
+			<h2 className="font-bold">Methods used: </h2>
 			<div>
 				{challenge.methods.map((hints) => {
 					console.log(

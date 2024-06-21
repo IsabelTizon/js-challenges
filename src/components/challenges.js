@@ -6,7 +6,7 @@ export const challenges = [
 			"Write a PANIC! function. The function should take in a sentence and return the same sentence in all caps with an exclamation point (!) at the end. Use JavaScript's built in string methods. ",
 			"If the string is a phrase or sentence, add a 😱 emoji in between each word",
 		],
-		Example: [
+		example: [
 			"Example input: 'Hello'",
 			"Example output: 'HELLO!'",
 			"Example input: 'I'm almost out of coffee'",
@@ -29,7 +29,7 @@ export const challenges = [
 			"Write a function `whisper` that takes in a sentence and returns a new sentence in all lowercase letters with 'shh...' at the beginning.",
 			"The function should also remove an exclamation point at the end of the sentence, if there is one. ",
 		],
-		Example: [
+		example: [
 			"Example input: 'The KITTENS are SLEEPING!'",
 			"Example output: 'shh... the kittens are sleeping'",
 		],
@@ -55,7 +55,7 @@ export const challenges = [
 		description: [
 			" Write a function that takes in a string of letters and returns a sentence in which every other letter is capitalized.",
 		],
-		Example: [
+		example: [
 			"Example input: 'I'm so happy it's Monday'",
 			"Example output: 'I'M So hApPy iT'S MoNdAy'",
 		],
@@ -71,7 +71,7 @@ export const challenges = [
 		id: 3,
 		name: "",
 		description: [" "],
-		Example: ["", ""],
+		example: ["", ""],
 		tester: [""],
 		methods: ["", "", ""],
 		explanation: ["", "", "", ""],
@@ -82,7 +82,7 @@ export const challenges = [
 		id: 4,
 		name: "",
 		description: [" "],
-		Example: ["", ""],
+		example: ["", ""],
 		tester: [""],
 		methods: ["", "", ""],
 		explanation: ["", "", "", ""],
@@ -93,7 +93,7 @@ export const challenges = [
 		id: 5,
 		name: "",
 		description: [" "],
-		Example: ["", ""],
+		example: ["", ""],
 		tester: [""],
 		methods: ["", "", ""],
 		explanation: ["", "", "", ""],
