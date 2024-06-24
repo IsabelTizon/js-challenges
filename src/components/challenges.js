@@ -93,7 +93,8 @@ export const challenges = [
 		methods: ["slice()", ".toUpperCase()", ""],
 		explanation: ["", "", "", ""],
 		img: "",
-		github: "",
+		github:
+			"https://github.com/IsabelTizon/js-challenges/blob/main/src/app/scrimba/exercises/toTitleCase.js",
 	},
 	{
 		id: 4,
