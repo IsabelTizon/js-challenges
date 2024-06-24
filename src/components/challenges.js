@@ -60,7 +60,7 @@ export const challenges = [
 			"Example output: 'I'M So hApPy iT'S MoNdAy'",
 		],
 		tester: [
-			"console.log(altCaps('When you visit Portland you have to go to VooDoo Donuts'));",
+			"console.log(alternatingCaps('When you visit Portland you have to go to VooDoo Donuts'));",
 		],
 		methods: ["", "", ""],
 		explanation: ["", "", "", ""],

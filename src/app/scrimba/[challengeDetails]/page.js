@@ -62,10 +62,10 @@ export default function ChallengeDetails({ params }) {
 			<div>
 				{" "}
 				{challenge.description.map((intructions) => {
-					console.log(
-						"challenge.description ===> ",
-						challenge.description
-					);
+					// console.log(
+					// 	"challenge.description ===> ",
+					// 	challenge.description
+					// );
 					return (
 						<p className="mt-[1rem]" key={intructions}>
 							{intructions}
@@ -76,10 +76,10 @@ export default function ChallengeDetails({ params }) {
 			<h2 className="font-bold">Examples</h2>
 			<div>
 				{challenge.example.map((examples) => {
-					console.log(
-						"Challenge Example: ",
-						challenge.example
-					);
+					// console.log(
+					// 	"Challenge Example: ",
+					// 	challenge.example
+					// );
 					return (
 						<p className="mt-[1rem]" key={examples}>
 							{examples}
@@ -101,10 +101,10 @@ export default function ChallengeDetails({ params }) {
 			<h2 className="font-bold">Methods used: </h2>
 			<div>
 				{challenge.methods.map((hints) => {
-					console.log(
-						"challenge.methods ===> ",
-						challenge.methods
-					);
+					// console.log(
+					// 	"challenge.methods ===> ",
+					// 	challenge.methods
+					// );
 					return <p key={hints}> {hints}</p>;
 				})}
 			</div>

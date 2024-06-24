@@ -1,6 +1,7 @@
 "use client";
 // import { panic } from "./panic";
-import { whispering } from "./whispering";
+// import { whispering } from "./whispering";
+import { alternatingCaps } from "./alternatingCaps";
 
 export default function courseConsole() {
 	return <div>Try your exercises on the client side!</div>;
@@ -9,10 +10,16 @@ export default function courseConsole() {
 // console.log(panic("I'm almost out of coffee"));
 // console.log(panic("winter is coming"));
 
-// 2) whispering
-console.log(whispering("PLEASE STOP SHOUTING."));
+// 2) whispering exercise
+// console.log(whispering("PLEASE STOP SHOUTING."));
 // console.log(whispering("MA'AM, this is a Wendy's!"));
-// 3) exercise
+
+// 3) Alternative Capitals Exercise
+console.log(
+	alternatingCaps(
+		"When you visit Portland you have to go to VooDoo Donuts"
+	)
+);
 // 4) exercise
 // 5) exercise
 // 6) exercise
