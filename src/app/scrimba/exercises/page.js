@@ -1,7 +1,8 @@
 "use client";
 // import { panic } from "./panic";
 // import { whispering } from "./whispering";
-import { alternatingCaps } from "./alternatingCaps";
+// import { alternatingCaps } from "./alternatingCaps";
+import { toTitleCase } from "./toTitleCase";
 
 export default function courseConsole() {
 	return <div>Try your exercises on the client side!</div>;
@@ -15,14 +16,14 @@ export default function courseConsole() {
 // console.log(whispering("MA'AM, this is a Wendy's!"));
 
 // 3) Alternative Capitals Exercise
-console.log(
-	alternatingCaps(
-		"When you visit Portland you have to go to VooDoo Donuts"
-	)
-);
+// console.log(
+// 	alternatingCaps(
+// 		"When you visit Portland you have to go to VooDoo Donuts"
+// 	)
+// );
 
-// 4) To title case exercise
-console.log(capitalizeWord("pumpkin"));
+// 4) To title Case Exercise
+// console.log(toTitleCase("pumpkin"));
 console.log(
 	toTitleCase(
 		"pumpkin pranced purposefully across the pond"
