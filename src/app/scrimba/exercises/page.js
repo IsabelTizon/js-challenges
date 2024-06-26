@@ -20,7 +20,15 @@ console.log(
 		"When you visit Portland you have to go to VooDoo Donuts"
 	)
 );
-// 4) exercise
+
+// 4) To title case exercise
+console.log(capitalizeWord("pumpkin"));
+console.log(
+	toTitleCase(
+		"pumpkin pranced purposefully across the pond"
+	)
+);
+
 // 5) exercise
 // 6) exercise
 // 7) exercise
