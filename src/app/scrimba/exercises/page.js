@@ -1,8 +1,10 @@
 "use client";
+
 // import { panic } from "./panic";
 // import { whispering } from "./whispering";
 // import { alternatingCaps } from "./alternatingCaps";
-import { toTitleCase } from "./toTitleCase";
+// import { toTitleCase } from "./toTitleCase";
+import { awardBonuses } from "./awardBonuses";
 
 export default function courseConsole() {
 	return <div>Try your exercises on the client side!</div>;
@@ -24,13 +26,14 @@ export default function courseConsole() {
 
 // 4) To title Case Exercise
 // console.log(toTitleCase("pumpkin"));
-console.log(
-	toTitleCase(
-		"pumpkin pranced purposefully across the pond"
-	)
-);
+// console.log(
+// 	toTitleCase(
+// 		"pumpkin pranced purposefully across the pond"
+// 	)
+// );
 
-// 5) exercise
+// 5) Definitely Not FizzBuzz Exercise
+console.log(awardBonuses());
 // 6) exercise
 // 7) exercise
 // 8) exercise
