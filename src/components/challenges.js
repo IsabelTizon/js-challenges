@@ -132,11 +132,12 @@ export const challenges = [
 			"4 - :(",
 			"5 - $100,000 bonus!",
 		],
-		tester: [""],
-		methods: ["", "", ""],
+		tester: ["console.log(awardBonuses());"],
+		methods: ["conditional", "", ""],
 		explanation: ["", "", "", ""],
 		img: "",
-		github: "",
+		github:
+			"https://github.com/IsabelTizon/js-challenges/blob/main/src/app/scrimba/exercises/awardBonuses.js",
 	},
 	{
 		id: 5,

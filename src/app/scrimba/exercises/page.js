@@ -33,7 +33,7 @@ export default function courseConsole() {
 // );
 
 // 5) Definitely Not FizzBuzz Exercise
-console.log(awardBonuses());
+// console.log(awardBonuses());
 // 6) exercise
 // 7) exercise
 // 8) exercise
