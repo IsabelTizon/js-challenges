@@ -108,6 +108,16 @@ export default function ChallengeDetails({ params }) {
 					return <p key={hints}> {hints}</p>;
 				})}
 			</div>
+			<h2 className="font-bold">Explanation</h2>
+			<div>
+				{challenge.explanation.map((hints) => {
+					// console.log(
+					// 	"challenge.explanation ===> ",
+					// 	challenge.explanation
+					// );
+					return <p key={hints}>{hints}</p>;
+				})}
+			</div>
 			<Link target="_blank" href={challenge.github}>
 				github
 			</Link>
