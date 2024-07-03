@@ -55,33 +55,41 @@ export default function ChallengeDetails({ params }) {
 
 	return (
 		<div>
-			<h1 className="" key={challenge.id}>
+			<h1 className="pepito" key={challenge.id}>
+				{challenge.id}
 				{challenge.name}
 			</h1>
 			<h2 className="font-bold">Instructions</h2>
 			<div>
-				{" "}
-				{challenge.description.map((intructions) => {
-					// console.log(
-					// 	"challenge.description ===> ",
-					// 	challenge.description
-					// );
-					return (
-						<p className="mt-[1rem]" key={intructions}>
-							{intructions}
-						</p>
-					);
-				})}
+				{challenge.description.map(
+					(instructions, index) => {
+						// console.log(
+						// 	"challenge.description ===> ",
+						// 	challenge.description
+						// );
+						return (
+							<p
+								className="mt-[1rem]"
+								key={`${instructions}-${index}`}
+							>
+								{instructions}
+							</p>
+						);
+					}
+				)}
 			</div>
 			<h2 className="font-bold">Examples</h2>
 			<div>
-				{challenge.example.map((examples) => {
+				{challenge.example.map((examples, index) => {
 					// console.log(
 					// 	"Challenge Example: ",
 					// 	challenge.example
 					// );
 					return (
-						<p className="mt-[1rem]" key={examples}>
+						<p
+							className="mt-[1rem]"
+							key={`${examples}-${index}`}
+						>
 							{examples}
 						</p>
 					);
@@ -89,10 +97,13 @@ export default function ChallengeDetails({ params }) {
 			</div>
 			<h2 className="font-bold">Test your function</h2>
 			<div>
-				{challenge.tester.map((testing) => {
+				{challenge.tester.map((testing, index) => {
 					console.log("Tester: ", challenge.tester);
 					return (
-						<p className="mt-[1rem]" key={testing}>
+						<p
+							className="mt-[1rem]"
+							key={`${testing}-${index}`}
+						>
 							{testing}
 						</p>
 					);
@@ -100,22 +111,22 @@ export default function ChallengeDetails({ params }) {
 			</div>
 			<h2 className="font-bold">Methods used: </h2>
 			<div>
-				{challenge.methods.map((hints) => {
+				{challenge.methods.map((hints, index) => {
 					// console.log(
 					// 	"challenge.methods ===> ",
 					// 	challenge.methods
 					// );
-					return <p key={hints}> {hints}</p>;
+					return <p key={`${hints}-${index}`}> {hints}</p>;
 				})}
 			</div>
 			<h2 className="font-bold">Explanation</h2>
 			<div>
-				{challenge.explanation.map((hints) => {
+				{challenge.explanation.map((hints, index) => {
 					// console.log(
 					// 	"challenge.explanation ===> ",
 					// 	challenge.explanation
 					// );
-					return <p key={hints}>{hints}</p>;
+					return <p key={`${hints}-${index}`}>{hints}</p>;
 				})}
 			</div>
 			<Link target="_blank" href={challenge.github}>
