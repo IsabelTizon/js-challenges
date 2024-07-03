@@ -7,7 +7,16 @@
 import { awardBonuses } from "./awardBonuses";
 
 export default function courseConsole() {
-	return <div>Try your exercises on the client side!</div>;
+	return (
+		<div>
+			<h1 className="mb-10">
+				Try your exercises on the client side!
+			</h1>
+			<p>
+				This page is to try each exercise by the client side
+			</p>
+		</div>
+	);
 }
 // 1) panic exercise
 // console.log(panic("I'm almost out of coffee"));
