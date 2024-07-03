@@ -12,7 +12,9 @@ export default function Scrimba() {
 	console.log("challenges", challenges);
 	return (
 		<div>
-			<div>JavaScript Interview Challenges</div>
+			<div className="mb-10">
+				JavaScript Interview Challenges
+			</div>
 			<div className="flex flex-col">
 				{challenges.map((challenge) => (
 					<Link
