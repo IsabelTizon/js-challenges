@@ -2,11 +2,11 @@ export const challenges = [
 	{
 		id: 0,
 		name: "Panic Function",
-		description: [
+		descriptions: [
 			"Write a PANIC! function. The function should take in a sentence and return the same sentence in all caps with an exclamation point (!) at the end. Use JavaScript's built in string methods. ",
 			"If the string is a phrase or sentence, add a 😱 emoji in between each word",
 		],
-		example: [
+		examples: [
 			"Example input: 'Hello",
 			"Example output: 'HELLO!'",
 			"Example input: 'I'm almost out of coffee'",
@@ -17,18 +17,18 @@ export const challenges = [
 			"console.log(panic('winter is coming'))",
 		],
 		methods: [".split()", " .join ()"],
-		explanation: [],
+		explanations: [],
 		github:
 			"https://github.com/IsabelTizon/js-challenges/blob/main/src/app/scrimba/exercises/panic.js",
 	},
 	{
 		id: 1,
 		name: "Whispering",
-		description: [
+		descriptions: [
 			"Write a function `whisper` that takes in a sentence and returns a new sentence in all lowercase letters with 'shh...' at the beginning.",
 			"The function should also remove an exclamation point at the end of the sentence, if there is one. ",
 		],
-		example: [
+		examples: [
 			"Example input: 'The KITTENS are SLEEPING!'",
 			"Example output: 'shh... the kittens are sleeping'",
 		],
@@ -37,7 +37,7 @@ export const challenges = [
 			"console.log(whisper('MA'AM, this is a Wendy's!'))",
 		],
 		methods: ["endsWith", "slice", "if conditional"],
-		explanation: [
+		explanations: [
 			".pop()",
 			"I tried pop method firts but the console gave me back Wendy's! instead without!",
 			"I had a problem with .pop() and I needed to create a new variable to add the pop method because if not it gave me back the same str",
@@ -51,10 +51,10 @@ export const challenges = [
 	{
 		id: 2,
 		name: "Alternating Caps",
-		description: [
+		descriptions: [
 			" Write a function that takes in a string of letters and returns a sentence in which every other letter is capitalized.",
 		],
-		example: [
+		examples: [
 			"Example input: 'I'm so happy it's Monday'",
 			"Example output: 'I'M So hApPy iT'S MoNdAy'",
 		],
@@ -62,7 +62,7 @@ export const challenges = [
 			"console.log(alternatingCaps('When you visit Portland you have to go to VooDoo Donuts'));",
 		],
 		methods: ["", "", ""],
-		explanation: ["", "", "", ""],
+		explanations: ["", "", "", ""],
 
 		github:
 			"https://github.com/IsabelTizon/js-challenges/blob/main/src/app/scrimba/exercises/alternatingCaps.js",
@@ -70,7 +70,7 @@ export const challenges = [
 	{
 		id: 3,
 		name: "toTitleCase",
-		description: [
+		descriptions: [
 			"Write a function that will capitalize every word in a sentence.",
 			"Example Input: 'everything, everywhere, all at once'",
 			"Example Output: 'Everything, Everywhere, All At Once'",
@@ -81,7 +81,7 @@ export const challenges = [
 			"Now write a function that capitalizes every word in a sentence. How can you reuse the function you just wrote?",
 			"function toTitleCase(str){ }",
 		],
-		example: [
+		examples: [
 			"Example Input: 'everything, everywhere, all at once'",
 			"Example Output: 'Everything, Everywhere, All At Once'",
 		],
@@ -97,7 +97,7 @@ export const challenges = [
 			".toLowerCase()",
 			".join(' ')",
 		],
-		explanation: [
+		explanations: [
 			"split(' '): método utilizado para dividir una cadena de caracteres en un string. ",
 			"split(' '): dividirá el str en palabras dentro de un array",
 			"split(''): dividirá el str en letras dentro de un array",
@@ -113,7 +113,7 @@ export const challenges = [
 	{
 		id: 4,
 		name: "Definitely Not FizzBuzz Exercise, awardBonuses",
-		description: [
+		descriptions: [
 			"Scrimba CEO Per Borgen wants you to write a program to grant special bonuses to all his employees based on their employee ID numbers!",
 			"Scrimba has 100 employees and their employee ID numbers range from 1 - 100. If the employee's ID number is: ",
 			"Divisible by 3 - Vacation! ",
@@ -122,7 +122,7 @@ export const challenges = [
 			"Not divisible by 3 or 5 - :(",
 			"Write a program to loop through all the ID numbers and print their prize. ",
 		],
-		example: [
+		examples: [
 			"Your function's output should look something like this: ",
 			"1 - :(",
 			"2 - :(",
@@ -132,18 +132,48 @@ export const challenges = [
 		],
 		tester: ["console.log(awardBonuses());"],
 		methods: ["conditional", "", ""],
-		explanation: ["", "", "", ""],
+		explanations: ["", "", "", ""],
 		github:
 			"https://github.com/IsabelTizon/js-challenges/blob/main/src/app/scrimba/exercises/awardBonuses.js",
 	},
 	{
 		id: 5,
 		name: "",
-		description: [" "],
+		descriptions: [" "],
+		examples: ["", ""],
+		tester: [""],
+		methods: ["", "", ""],
+		explanations: ["", "", "", ""],
+		github: "",
+	},
+	{
+		id: 6,
+		name: "",
+		descriptions: [" "],
 		example: ["", ""],
 		tester: [""],
 		methods: ["", "", ""],
-		explanation: ["", "", "", ""],
+		explanations: ["", "", "", ""],
+		github: "",
+	},
+	{
+		id: 7,
+		name: "",
+		descriptions: [" "],
+		examples: ["", ""],
+		tester: [""],
+		methods: ["", "", ""],
+		explanations: ["", "", "", ""],
+		github: "",
+	},
+	{
+		id: 8,
+		name: "",
+		descriptions: [" "],
+		examples: ["", ""],
+		tester: [""],
+		methods: ["", "", ""],
+		explanations: ["", "", "", ""],
 		github: "",
 	},
 ];

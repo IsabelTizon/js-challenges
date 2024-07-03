@@ -61,7 +61,7 @@ export default function ChallengeDetails({ params }) {
 			</h1>
 			<h2 className="font-bold">Instructions</h2>
 			<div>
-				{challenge.description.map(
+				{challenge.descriptions.map(
 					(instructions, index) => {
 						// console.log(
 						// 	"challenge.description ===> ",
@@ -80,7 +80,7 @@ export default function ChallengeDetails({ params }) {
 			</div>
 			<h2 className="font-bold">Examples</h2>
 			<div>
-				{challenge.example.map((examples, index) => {
+				{challenge.examples.map((example, index) => {
 					// console.log(
 					// 	"Challenge Example: ",
 					// 	challenge.example
@@ -88,9 +88,9 @@ export default function ChallengeDetails({ params }) {
 					return (
 						<p
 							className="mt-[1rem]"
-							key={`${examples}-${index}`}
+							key={`${example}-${index}`}
 						>
-							{examples}
+							{example}
 						</p>
 					);
 				})}
@@ -111,23 +111,31 @@ export default function ChallengeDetails({ params }) {
 			</div>
 			<h2 className="font-bold">Methods used: </h2>
 			<div>
-				{challenge.methods.map((hints, index) => {
+				{challenge.methods.map((method, index) => {
 					// console.log(
 					// 	"challenge.methods ===> ",
 					// 	challenge.methods
 					// );
-					return <p key={`${hints}-${index}`}> {hints}</p>;
+					return (
+						<p key={`${method}-${index}`}> {method}</p>
+					);
 				})}
 			</div>
 			<h2 className="font-bold">Explanation</h2>
 			<div>
-				{challenge.explanation.map((hints, index) => {
-					// console.log(
-					// 	"challenge.explanation ===> ",
-					// 	challenge.explanation
-					// );
-					return <p key={`${hints}-${index}`}>{hints}</p>;
-				})}
+				{challenge.explanations.map(
+					(clarification, index) => {
+						// console.log(
+						// 	"challenge.explanation ===> ",
+						// 	challenge.explanation
+						// );
+						return (
+							<p key={`${clarification}-${index}`}>
+								{clarification}
+							</p>
+						);
+					}
+				)}
 			</div>
 			<Link target="_blank" href={challenge.github}>
 				github
