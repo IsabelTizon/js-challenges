@@ -7,7 +7,7 @@ export const challenges = [
 			"If the string is a phrase or sentence, add a 😱 emoji in between each word",
 		],
 		example: [
-			"Example input: 'Hello'",
+			"Example input: 'Hello",
 			"Example output: 'HELLO!'",
 			"Example input: 'I'm almost out of coffee'",
 			"Example output: 'I'M 😱 ALMOST 😱 OUT 😱 OF 😱 COFFEE!'",
@@ -18,7 +18,6 @@ export const challenges = [
 		],
 		methods: [".split()", " .join ()"],
 		explanation: [],
-		img: "uuuuu",
 		github:
 			"https://github.com/IsabelTizon/js-challenges/blob/main/src/app/scrimba/exercises/panic.js",
 	},
@@ -45,7 +44,7 @@ export const challenges = [
 			".slice(0,-1)",
 			"The exercise need to be done with .slice() method to be able to delete '!'",
 		],
-		img: "uuuuu",
+
 		github:
 			"https://github.com/IsabelTizon/js-challenges/blob/main/src/app/scrimba/exercises/whispering.js",
 	},
@@ -64,7 +63,7 @@ export const challenges = [
 		],
 		methods: ["", "", ""],
 		explanation: ["", "", "", ""],
-		img: "",
+
 		github:
 			"https://github.com/IsabelTizon/js-challenges/blob/main/src/app/scrimba/exercises/alternatingCaps.js",
 	},
@@ -108,7 +107,6 @@ export const challenges = [
 			".slice(1).toLowerCase(): para poner mayusculas todos los elementos después del primero",
 			".join(' ')",
 		],
-		img: "",
 		github:
 			"https://github.com/IsabelTizon/js-challenges/blob/main/src/app/scrimba/exercises/toTitleCase.js",
 	},
@@ -135,7 +133,6 @@ export const challenges = [
 		tester: ["console.log(awardBonuses());"],
 		methods: ["conditional", "", ""],
 		explanation: ["", "", "", ""],
-		img: "",
 		github:
 			"https://github.com/IsabelTizon/js-challenges/blob/main/src/app/scrimba/exercises/awardBonuses.js",
 	},
@@ -147,7 +144,6 @@ export const challenges = [
 		tester: [""],
 		methods: ["", "", ""],
 		explanation: ["", "", "", ""],
-		img: "",
 		github: "",
 	},
 ];
