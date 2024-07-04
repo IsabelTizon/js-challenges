@@ -9,13 +9,13 @@ export function awardBonuses() {
 			name: `employee ${index + 1}`,
 		})
 	);
-	// ${employees} me
+	// ${employees} muestra por consola muchos arrays
 	console.log(
-		`employees:[object Object],[object Object]:${employees}`
+		`++++++++++++++++++++++++++ CONSOLE.LOG OF employees CON EL SIMBOLO DEL DOLAR Y LA PALABRA EN CURLY BRACES DANDO COMO RESULTADO 100 ARRAYS. E.G ===> ${employees}`
 	);
-	// ${employees}
+	// employees muestra por consola un array
 	console.log(
-		`employees: [{ id: 1, name: 'employee 1' },{ id: 2, name: 'employee 2' },:`,
+		`++++++++++++++++++++++++++ CONSOLE.LOG OF employees DANDO COMO RESULTADO UN ARRAY CON 100 OBJETOS. E.G ===> `,
 		employees
 	);
 
@@ -27,8 +27,8 @@ export function awardBonuses() {
 			`ID: ${employee.id}, Name: ${employee.name}`
 		);
 
-		//Conditional
-
+		//Conditional Staments
+		// It is divisible by 3 and 5
 		if (employee.id % 15 === 0) {
 			console.log(
 				`=====> Congratulations ${employee.name} JACKPOT! 1 Million and a Yacht!`
