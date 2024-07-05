@@ -178,7 +178,15 @@ export const challenges = [
 			"console.log(emojifyPhrase('I :heart: my :cat:'));",
 			"console.log(emojifyPhrase('I :heart: my :elephant:'));",
 		],
-		methods: ["", "", ""],
+		methods: [
+			"toLowerCase()",
+			".startsWith()",
+			".slice()",
+			".split()",
+			"forEach()",
+			".endWith()",
+			"conditional",
+		],
 		explanations: ["", "", "", ""],
 		github:
 			"https://github.com/IsabelTizon/js-challenges/blob/main/src/app/scrimba/exercises/emojify.js",
