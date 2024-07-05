@@ -4,7 +4,8 @@
 // import { whispering } from "./whispering";
 // import { alternatingCaps } from "./alternatingCaps";
 // import { toTitleCase } from "./toTitleCase";
-import { awardBonuses } from "./awardBonuses";
+// import { awardBonuses } from "./awardBonuses";
+import { emojify } from "./emojify";
 
 export default function courseConsole() {
 	return (
@@ -42,8 +43,10 @@ export default function courseConsole() {
 // );
 
 // 5) Definitely Not FizzBuzz Exercise
-console.log(awardBonuses());
-// 6) exercise
+// console.log(awardBonuses());
+
+// 6) Emoji Exercise
+console.log(emojify());
 // 7) exercise
 // 8) exercise
 // 9) exercise
