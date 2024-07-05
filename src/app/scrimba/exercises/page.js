@@ -46,7 +46,7 @@ export default function courseConsole() {
 // console.log(awardBonuses());
 
 // 6) Emoji Exercise
-console.log(emojify());
+console.log(emojify(":aleman:"));
 // 7) exercise
 // 8) exercise
 // 9) exercise
