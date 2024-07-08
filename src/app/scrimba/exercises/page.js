@@ -6,6 +6,7 @@
 // import { toTitleCase } from "./toTitleCase";
 // import { awardBonuses } from "./awardBonuses";
 import { emojify } from "./emojify";
+import { emojify2 } from "./emojify";
 
 export default function courseConsole() {
 	return (
@@ -47,6 +48,7 @@ export default function courseConsole() {
 
 // 6) Emoji Exercise
 console.log(emojify(":aleman:"));
+console.log(emojify2("I :heart: my :cat:"));
 // 7) exercise
 // 8) exercise
 // 9) exercise

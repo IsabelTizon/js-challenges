@@ -1,7 +1,21 @@
+const emojis = {
+	smile: "😊",
+	angry: "😠",
+	party: "🎉",
+	heart: "💜",
+	cat: "🐱",
+	dog: "🐕",
+	LOL: "🤣",
+	CowBoy: "🤠",
+	horse: "🐴",
+};
+console.log("1) emojis", emojis);
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+//Emojify
 export function emojify(str) {
-	console.log("1) str ===> ", str);
+	console.log("2) str ===> ", str);
 	let lowerCaseStr = str.toLowerCase();
-	console.log("2) lowerCaseStr ===> ", lowerCaseStr);
+	console.log("3) lowerCaseStr ===> ", lowerCaseStr);
 	/** 			
 	"toLowerCase()",
 	".starstWith()",
@@ -10,19 +24,6 @@ export function emojify(str) {
 	"forEach()",
 	".endWith()",
 	"conditional", */
-
-	const emojis = {
-		smile: "😊",
-		angry: "😠",
-		party: "🎉",
-		heart: "💜",
-		cat: "🐱",
-		dog: "🐕",
-		LOL: "🤣",
-		CowBoy: "🤠",
-		horse: "🐴",
-	};
-	console.log("3) emojis", emojis);
 
 	if (
 		lowerCaseStr.startsWith(":") &&
@@ -79,6 +80,18 @@ export function emojify(str) {
 			"12) SOLUTION ===============>  El Elemento NO empieza con dos puntos"
 		);
 	}
+
+	return "solution";
+}
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+//Emojify2
+export function emojify2(str) {
+	console.log(
+		"/////////////////////////////////////////////////////////////////////////////////////////////////////////////////"
+	);
+	console.log("2) str2 ===> ", str);
+	let lowerCaseStr = str.toLowerCase();
+	console.log("3) lowerCaseStr2 ===> ", lowerCaseStr);
 
 	return "solution";
 }
