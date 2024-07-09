@@ -93,5 +93,20 @@ export function emojify2(str) {
 	let lowerCaseStr = str.toLowerCase();
 	console.log("3) lowerCaseStr2 ===> ", lowerCaseStr);
 
+	let elements = lowerCaseStr.split(" ");
+	console.log("4) elements", lowerCaseStr.split(" "));
+
+	elements.forEach((element, index) => {
+		console.log(`5) index: ${index}=> element: ${element}`);
+		if (element.startsWith(":") && element.endsWith(":")) {
+			console.log("6) element", elements);
+			let slicedElement = element.slice(1, -1);
+			console.log("7) sliced element: ", slicedElement);
+			// console.log(
+			// 	"8) join elements: ",
+			// 	slicedElement.join(" ")
+			// );
+		}
+	});
 	return "solution";
 }
