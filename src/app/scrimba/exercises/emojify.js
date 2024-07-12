@@ -94,19 +94,39 @@ export function emojify2(str) {
 	console.log("3) lowerCaseStr2 ===> ", lowerCaseStr);
 
 	let elements = lowerCaseStr.split(" ");
-	console.log("4) elements", lowerCaseStr.split(" "));
+	console.log("4) elements", elements);
 
 	elements.forEach((element, index) => {
 		console.log(`5) index: ${index}=> element: ${element}`);
 		if (element.startsWith(":") && element.endsWith(":")) {
-			console.log("6) element", elements);
 			let slicedElement = element.slice(1, -1);
-			console.log("7) sliced element: ", slicedElement);
-			// console.log(
-			// 	"8) join elements: ",
-			// 	slicedElement.join(" ")
-			// );
+			console.log("6) sliced element: ", slicedElement);
+
+			if (emojis.hasOwnProperty(slicedElement)) {
+				console.log(
+					`9) The word "${slicedElement}" is a property in the emojis object.`
+				); // Crear una expresión regular a partir de las claves del objeto emojis
+				const regex = new RegExp(
+					`\\b(${Object.keys(emojis).join("|")})\\b`,
+					"g"
+				);
+
+				// Reemplazar las palabras usando la expresión regular y una función de reemplazo
+				const newElement = slicedElement.replace(
+					regex,
+					(match) => emojis[match]
+				);
+
+				// console.log(
+				// 	"10) WORD SOLUTION ===============> ",
+				// 	console.log("4) elements", elements)
+				// ); // Output: 💜 🐱
+			} else {
+				console.log(
+					`12) SOLUTION ===============>  The slicedElement "${slicedElement}" is not a property in the emojis object.`
+				);
+			}
 		}
 	});
-	return "solution";
+	return "13) solution";
 }
