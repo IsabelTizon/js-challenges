@@ -118,7 +118,8 @@ export function emojify2(str) {
 				);
 				console.log("10) newElement", newElement);
 				elements[index] = newElement;
-				console.log("4) elements", elements);
+				let newSentence = elements.join(" ");
+				console.log("4) elements", newSentence);
 				// console.log(
 				// 	"10) WORD SOLUTION ===============> ",
 				// 	console.log("4) elements", elements)
