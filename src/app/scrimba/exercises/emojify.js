@@ -116,7 +116,9 @@ export function emojify2(str) {
 					regex,
 					(match) => emojis[match]
 				);
-
+				console.log("10) newElement", newElement);
+				elements[index] = newElement;
+				console.log("4) elements", elements);
 				// console.log(
 				// 	"10) WORD SOLUTION ===============> ",
 				// 	console.log("4) elements", elements)
