@@ -89,22 +89,22 @@ export function emojify2(str) {
 	console.log(
 		"/////////////////////////////////////////////////////////////////////////////////////////////////////////////////"
 	);
-	console.log("2) str2 ===> ", str);
+	console.log("1) str2 ===> ", str);
 	let lowerCaseStr = str.toLowerCase();
-	console.log("3) lowerCaseStr2 ===> ", lowerCaseStr);
+	console.log("2) lowerCaseStr2 ===> ", lowerCaseStr);
 
 	let elements = lowerCaseStr.split(" ");
-	console.log("4) elements", elements);
+	console.log("3) elements", elements);
 
 	elements.forEach((element, index) => {
-		console.log(`5) index: ${index}=> element: ${element}`);
+		console.log(`4) index: ${index}=> element: ${element}`);
 		if (element.startsWith(":") && element.endsWith(":")) {
 			let slicedElement = element.slice(1, -1);
-			console.log("6) sliced element: ", slicedElement);
+			console.log("5) sliced element: ", slicedElement);
 
 			if (emojis.hasOwnProperty(slicedElement)) {
 				console.log(
-					`9) The word "${slicedElement}" is a property in the emojis object.`
+					`6) The word "${slicedElement}" is a property in the emojis object.`
 				); // Crear una expresión regular a partir de las claves del objeto emojis
 				const regex = new RegExp(
 					`\\b(${Object.keys(emojis).join("|")})\\b`,
@@ -116,20 +116,20 @@ export function emojify2(str) {
 					regex,
 					(match) => emojis[match]
 				);
-				console.log("10) newElement", newElement);
+				console.log("7) newElement", newElement);
 				elements[index] = newElement;
 				let newSentence = elements.join(" ");
-				console.log("4) elements", newSentence);
+				console.log("8) elements", newSentence);
 				// console.log(
-				// 	"10) WORD SOLUTION ===============> ",
+				// 	"8) WORD SOLUTION ===============> ",
 				// 	console.log("4) elements", elements)
 				// ); // Output: 💜 🐱
 			} else {
 				console.log(
-					`12) SOLUTION ===============>  The slicedElement "${slicedElement}" is not a property in the emojis object.`
+					`8) SOLUTION ===============>  The slicedElement "${slicedElement}" is not a property in the emojis object.`
 				);
 			}
 		}
 	});
-	return "13) solution";
+	return "8) solution";
 }
