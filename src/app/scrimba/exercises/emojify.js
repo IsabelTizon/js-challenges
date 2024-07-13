@@ -99,7 +99,8 @@ export function emojify2(str) {
 	elements.forEach((element, index) => {
 		console.log(`4) index: ${index}=> element: ${element}`);
 		if (element.startsWith(":") && element.endsWith(":")) {
-			let slicedElement = element.slice(1, -1);
+			const slicedElement = element.slice(1, -1);
+			elements[index] = slicedElement;
 			console.log("5) sliced element: ", slicedElement);
 
 			if (emojis.hasOwnProperty(slicedElement)) {
