@@ -119,15 +119,14 @@ export function emojify2(str) {
 				console.log("7) newElement", newElement);
 				elements[index] = newElement;
 				let newSentence = elements.join(" ");
-				console.log("8) elements", newSentence);
-				// console.log(
-				// 	"8) WORD SOLUTION ===============> ",
-				// 	console.log("4) elements", elements)
-				// ); // Output: 💜 🐱
+				// console.log("8) elements", newSentence);
+				// Output: i 💜 my 🐱
+				return `8) SOLUTION ===============>  ${newSentence}`;
 			} else {
-				console.log(
-					`8) SOLUTION ===============>  The slicedElement "${slicedElement}" is not a property in the emojis object.`
-				);
+				// console.log(
+				// 	`8) SOLUTION ===============>  The slicedElement "${slicedElement}" is not a property in the emojis object.`
+				// );
+				return `8) SOLUTION ===============>  The slicedElement "${slicedElement}" is not a property in the emojis object.`;
 			}
 		}
 	});
