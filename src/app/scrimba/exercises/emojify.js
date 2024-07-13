@@ -24,27 +24,26 @@ export function emojify(str) {
 	"forEach()",
 	".endWith()",
 	"conditional", */
+	// SPLIT(): Splitting the string into letters with the split method
+	let elementsArray = lowerCaseStr.split("");
+	console.log(
+		"5) elements Array split() ===> ",
+		elementsArray
+	);
 
-	if (
-		lowerCaseStr.startsWith(":") &&
-		lowerCaseStr.endsWith(":")
-	) {
+	// FOREACH() LOOP:
+	elementsArray.forEach((element, index) => {
 		console.log(
-			"4) El Elemento empieza y termina con dos puntos"
+			"6) Element Loop ===> ",
+			`index: ${index} ==> element: ${element}`
 		);
-		// SPLIT(): Splitting the string into letters with the split method
-		let elements = lowerCaseStr.split("");
-		console.log("5) Split Str ===> ", elements);
-
-		// FOREACH() LOOP:
-		elements.forEach((element, index) => {
+		if (element.startsWith(":") && element.endsWith(":")) {
 			console.log(
-				"6) Element Loop ===> ",
-				`index: ${index} ==> element: ${element}`
+				"4) El Elemento empieza y termina con dos puntos"
 			);
-			const letters = elements.slice(1, -1);
+			const letters = elementsArray.slice(1, -1);
 			console.log(
-				"7) Word splited in elements ===> ",
+				"7) elements Array with split() ===> ",
 				letters
 			);
 
@@ -74,12 +73,12 @@ export function emojify(str) {
 					`11) SOLUTION ===============>  The word "${word}" is not a property in the emojis object.`
 				);
 			}
-		});
-	} else {
-		console.log(
-			"12) SOLUTION ===============>  El Elemento NO empieza con dos puntos"
-		);
-	}
+		} else {
+			console.log(
+				"12) SOLUTION ===============>  El Elemento NO empieza con dos puntos"
+			);
+		}
+	});
 
 	return "solution";
 }
