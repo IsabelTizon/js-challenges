@@ -5,8 +5,9 @@
 // import { alternatingCaps } from "./alternatingCaps";
 // import { toTitleCase } from "./toTitleCase";
 // import { awardBonuses } from "./awardBonuses";
-import { emojify } from "./emojify";
-import { emojify2 } from "./emojify";
+// import { emojify } from "./emojify";
+// import { emojify2 } from "./emojify";
+import { isAnagram } from "./isAnagram";
 
 export default function courseConsole() {
 	return (
@@ -47,11 +48,15 @@ export default function courseConsole() {
 // console.log(awardBonuses());
 
 // 6) Emoji Exercise
-console.log(emojify(":party:"));
-console.log(emojify(":aleman:"));
-console.log(emojify2("I :heart: my :cat:"));
-console.log(emojify2("I :want: my :gelato:"));
-// 7) exercise
+// console.log(emojify(":party:"));
+// console.log(emojify(":aleman:"));
+// console.log(emojify2("I :heart: my :cat:"));
+// console.log(emojify2("I :want: my :gelato:"));
+
+// 7) anagram exercise
+// console.log(isAnagram("allergy", "gallery"));
+// console.log(isAnagram("treasure", "measure"));
+
 // 8) exercise
 // 9) exercise
 // 10) exercise
