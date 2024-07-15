@@ -54,8 +54,8 @@ export default function courseConsole() {
 // console.log(emojify2("I :want: my :gelato:"));
 
 // 7) anagram exercise
-// console.log(isAnagram("allergy", "gallery"));
-// console.log(isAnagram("treasure", "measure"));
+console.log(isAnagram("Allergy", "Gallery"));
+console.log(isAnagram("Treasure", "Measure"));
 
 // 8) exercise
 // 9) exercise
