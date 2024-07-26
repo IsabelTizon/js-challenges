@@ -4,7 +4,11 @@ export function isAnagram(str1, str2) {
 		console.log(
 			`2) str1 (${str1}) and str2 (${str2}) have the same length`
 		);
+		//  💡💡💡💡💡💡💡💡 Es muy importante utilizar el método .split() para poder utilizar el método .sort()
 		// Minusculas con el metodo toLowerCase()
+		// Convertirlo a array con el método .split() para comparar elemento por elemento
+		// Ordenarlo alfabeticamente con el método .sort()
+		// Volver a juntar la cadena del array en str con el método .join("")
 		let newStr1 = str1
 			.toLowerCase()
 			.split("")
