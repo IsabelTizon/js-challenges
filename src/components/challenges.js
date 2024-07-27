@@ -266,10 +266,14 @@ export const challenges = [
 			"Example input: ",
 			"Example output: ",
 		],
-		tester: [""],
+		tester: [
+			"console.log(reverseStr(title))",
+			"console.log(reverseStringsInArray(messages));",
+		],
 		methods: ["", "", ""],
 		explanations: ["", "", "", ""],
-		github: "",
+		github:
+			"https://github.com/IsabelTizon/js-challenges/blob/main/src/app/scrimba/exercises/reverseStr.js",
 	},
 	{
 		id: 8,
