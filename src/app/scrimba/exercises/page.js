@@ -7,17 +7,14 @@
 // import { awardBonuses } from "./awardBonuses";
 // import { emojify } from "./emojify";
 // import { emojify2 } from "./emojify";
-import { isAnagram } from "./isAnagram";
+// import { isAnagram } from "./isAnagram";
+import { reverseStr } from "./reverseStr";
 
 export default function courseConsole() {
 	return (
 		<div>
-			<h1 className="mb-10">
-				Try your exercises on the client side!
-			</h1>
-			<p>
-				This page is to try each exercise by the client side
-			</p>
+			<h1 className="mb-10">Try your exercises on the client side!</h1>
+			<p>This page is to try each exercise by the client side</p>
 		</div>
 	);
 }
@@ -53,11 +50,13 @@ export default function courseConsole() {
 // console.log(emojify2("I :heart: my :cat:"));
 // console.log(emojify2("I :want: my :gelato:"));
 
-// 7) anagram exercise
-console.log(isAnagram("Allergy", "Gallery"));
-console.log(isAnagram("Treasure", "Measure"));
+// 7) is an anagram exercise
+// console.log(isAnagram("Allergy", "Gallery"));
+// console.log(isAnagram("Treasure", "Measure"));
 
-// 8) exercise
+// 8) Reverse String Exercise
+console.log(reverseStr(title));
+// console.log(reverseStringsInArray(messages));
 // 9) exercise
 // 10) exercise
 // 11) exercise
