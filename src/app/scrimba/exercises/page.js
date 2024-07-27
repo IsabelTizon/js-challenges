@@ -55,7 +55,7 @@ export default function courseConsole() {
 // console.log(isAnagram("Treasure", "Measure"));
 
 // 8) Reverse String Exercise
-console.log(reverseStr(title));
+// console.log(reverseStr(title));
 // console.log(reverseStringsInArray(messages));
 // 9) exercise
 // 10) exercise
