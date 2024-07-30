@@ -3,7 +3,5 @@ export function reverseStr(str) {
 }
 
 export function reverseStrArray(arr) {
-	console.log(
-		arr.map((str) => str.split("").reverse().join(""))
-	);
+	return arr.map((str) => str.split("").reverse().join(""));
 }
