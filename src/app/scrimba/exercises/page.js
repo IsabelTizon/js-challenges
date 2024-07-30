@@ -13,8 +13,12 @@ import { reverseStr } from "./reverseStr";
 export default function courseConsole() {
 	return (
 		<div>
-			<h1 className="mb-10">Try your exercises on the client side!</h1>
-			<p>This page is to try each exercise by the client side</p>
+			<h1 className="mb-10">
+				Try your exercises on the client side!
+			</h1>
+			<p>
+				This page is to try each exercise by the client side
+			</p>
 		</div>
 	);
 }
@@ -55,7 +59,15 @@ export default function courseConsole() {
 // console.log(isAnagram("Treasure", "Measure"));
 
 // 8) Reverse String Exercise
-// console.log(reverseStr(title));
+const title = ":htraE no od ot ffutS";
+console.log(reverseStr(title));
+// const messages = [
+// 	"maerc eci yrT",
+// 	"rewoT leffiE tisiV",
+// 	"noom eht ot snamuh etacoleR",
+// 	"egrahc ni stac tuP",
+// ];
+
 // console.log(reverseStringsInArray(messages));
 // 9) exercise
 // 10) exercise
