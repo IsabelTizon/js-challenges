@@ -9,6 +9,7 @@
 // import { emojify2 } from "./emojify";
 // import { isAnagram } from "./isAnagram";
 import { reverseStr } from "./reverseStr";
+import { reverseStrArray } from "./reverseStr";
 
 export default function courseConsole() {
 	return (
@@ -61,14 +62,13 @@ export default function courseConsole() {
 // 8) Reverse String Exercise
 const title = ":htraE no od ot ffutS";
 console.log(reverseStr(title));
-// const messages = [
-// 	"maerc eci yrT",
-// 	"rewoT leffiE tisiV",
-// 	"noom eht ot snamuh etacoleR",
-// 	"egrahc ni stac tuP",
-// ];
-
-// console.log(reverseStringsInArray(messages));
+const messages = [
+	"maerc eci yrT",
+	"rewoT leffiE tisiV",
+	"noom eht ot snamuh etacoleR",
+	"egrahc ni stac tuP",
+];
+console.log(reverseStrArray(messages));
 // 9) exercise
 // 10) exercise
 // 11) exercise
