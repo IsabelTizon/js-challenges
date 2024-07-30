@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { challenges } from "../../components/challenges";
+import { challenges } from "../../components/challengesArray";
 
 export const metadata = {
 	title: "Scrimba Interview Challenges",
