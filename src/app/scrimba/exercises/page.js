@@ -78,7 +78,11 @@ export default function courseConsole() {
 // console.log(isPalindrome("octopus"));
 // console.log(isPalindrome("pumpkins"));
 // console.log(isPalindrome("madam"));
-// 10) exercise
+
+// 10) Removing Duplicates characters Exercise
+// console.log(removingDuplicates());
+// console.log(removingDuplicates(password));
+
 // 11) exercise
 // 12) exercise
 // 13) exercise
