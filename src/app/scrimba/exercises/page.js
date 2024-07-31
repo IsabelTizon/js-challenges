@@ -72,9 +72,9 @@ export default function courseConsole() {
 // console.log(reverseStrArray(messages));
 
 // 9) is a palindrome exercise
-console.log(isPalindrome());
 // console.log(isPalindrome("abba"));
 // console.log(isPalindrome("civic"));
+// console.log(isPalindrome("Octopus"));
 // console.log(isPalindrome("octopus"));
 // console.log(isPalindrome("pumpkins"));
 // console.log(isPalindrome("madam"));
