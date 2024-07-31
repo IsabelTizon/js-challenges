@@ -10,7 +10,8 @@
 // import { isAnagram } from "./isAnagram";
 // import { reverseStr } from "./reverseStr";
 // import { reverseStrArray } from "./reverseStr";
-import { isPalindrome } from "./isPalindrome";
+// import { isPalindrome } from "./isPalindrome";
+import { removingDuplicates } from "./removingDuplicates";
 
 export default function courseConsole() {
 	return (
@@ -80,7 +81,7 @@ export default function courseConsole() {
 // console.log(isPalindrome("madam"));
 
 // 10) Removing Duplicates characters Exercise
-// console.log(removingDuplicates());
+console.log(removingDuplicates());
 // console.log(removingDuplicates(password));
 
 // 11) exercise
