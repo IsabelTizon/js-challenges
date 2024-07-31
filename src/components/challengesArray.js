@@ -332,7 +332,8 @@ export const challenges = [
 			"primero hay que separar el str en elementos para poder darlos la vuelta y despúes volverlos a unir",
 			"to reverse an array of str:",
 		],
-		github: "",
+		github:
+			"https://github.com/IsabelTizon/js-challenges/blob/main/src/app/scrimba/exercises/isPalindrome.js",
 	},
 	{
 		id: 9,
