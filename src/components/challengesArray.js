@@ -351,7 +351,8 @@ export const challenges = [
 		tester: ["console.log(removingDuplicates(password));"],
 		methods: ["", "", ""],
 		explanations: ["", "", "", ""],
-		github: "",
+		github:
+			"https://github.com/IsabelTizon/js-challenges/blob/main/src/app/scrimba/exercises/removingDuplicates.js",
 	},
 	{
 		id: 10,
