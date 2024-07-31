@@ -8,8 +8,9 @@
 // import { emojify } from "./emojify";
 // import { emojify2 } from "./emojify";
 // import { isAnagram } from "./isAnagram";
-import { reverseStr } from "./reverseStr";
-import { reverseStrArray } from "./reverseStr";
+// import { reverseStr } from "./reverseStr";
+// import { reverseStrArray } from "./reverseStr";
+import { isPalindrome } from "./isPalindrome";
 
 export default function courseConsole() {
 	return (
@@ -60,16 +61,23 @@ export default function courseConsole() {
 // console.log(isAnagram("Treasure", "Measure"));
 
 // 8) Reverse String Exercise
-const title = ":htraE no od ot ffutS";
-console.log(reverseStr(title));
-const messages = [
-	"maerc eci yrT",
-	"rewoT leffiE tisiV",
-	"noom eht ot snamuh etacoleR",
-	"egrahc ni stac tuP",
-];
-console.log(reverseStrArray(messages));
-// 9) exercise
+// const title = ":htraE no od ot ffutS";
+// console.log(reverseStr(title));
+// const messages = [
+// 	"maerc eci yrT",
+// 	"rewoT leffiE tisiV",
+// 	"noom eht ot snamuh etacoleR",
+// 	"egrahc ni stac tuP",
+// ];
+// console.log(reverseStrArray(messages));
+
+// 9) is a palindrome exercise
+console.log(isPalindrome());
+// console.log(isPalindrome("abba"));
+// console.log(isPalindrome("civic"));
+// console.log(isPalindrome("octopus"));
+// console.log(isPalindrome("pumpkins"));
+// console.log(isPalindrome("madam"));
 // 10) exercise
 // 11) exercise
 // 12) exercise

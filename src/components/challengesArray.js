@@ -301,12 +301,37 @@ export const challenges = [
 	},
 	{
 		id: 8,
-		name: "",
-		descriptions: [" "],
-		examples: ["", ""],
-		tester: [""],
-		methods: ["", "", ""],
-		explanations: ["", "", "", ""],
+		name: "Is a Palindrome?",
+		descriptions: [
+			"Palindromes are words that are the same forward or backward. For example, the words 'noon' and 'kayak' are a palindromes.",
+			"Write a function to check if a lowercased string of letters is a palindrome. If the word is palindrome, return true. If it isn't, return false.",
+			"function isPalindrome(str){}",
+		],
+		examples: [
+			"Example input: 'motorbike'",
+			"Example output: false",
+			"Example input: 'rotator'",
+			"Example output: false",
+		],
+		tester: [
+			"console.log(isPalindrome('abba'));",
+			"console.log(isPalindrome('civic'));",
+			"console.log(isPalindrome('octopus'));",
+			"console.log(isPalindrome('pumpkins'));",
+			"console.log(isPalindrome('madam'));",
+		],
+		methods: [
+			"to reverse str: .split('').reverse().join('')",
+		],
+		explanations: [
+			"Reverse is an array method and you can not using on a str. What I first need to do is pass my str into an array with the split() method",
+			"to reverse str:",
+			".split('')",
+			".reverse()",
+			".join('')",
+			"primero hay que separar el str en elementos para poder darlos la vuelta y despúes volverlos a unir",
+			"to reverse an array of str:",
+		],
 		github: "",
 	},
 	{
