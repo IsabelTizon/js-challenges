@@ -349,8 +349,19 @@ export const challenges = [
 			"Example output: 'abc12'",
 		],
 		tester: ["console.log(removingDuplicates(password));"],
-		methods: ["", "", ""],
-		explanations: ["", "", "", ""],
+		methods: [
+			"empty variable",
+			".plit('')",
+			".map(char)",
+			"if conditional",
+			".includes(char)",
+		],
+		explanations: [
+			"empty variable: ⭐⭐⭐⭐⭐⭐⭐⭐⭐ need to be inisialise with let NOT with const❗❗❗❗",
+			".plit(''): to convert tghe str into an array to manipulate each element",
+			".map(char): to iterate over the array. Another methods you can use to do that are: forEach(), for loop",
+			".includes(char): to determine whether a given array or string contains a specified element",
+		],
 		github:
 			"https://github.com/IsabelTizon/js-challenges/blob/main/src/app/scrimba/exercises/removingDuplicates.js",
 	},
