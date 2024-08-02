@@ -1,3 +1,4 @@
 export function countChars() {
-	return <div>countChars</div>;
+	console.log(`1) Hello countChars exercise!!!!`);
+	return `RETURN) Hello countChars exercise!!!!`;
 }

@@ -380,7 +380,8 @@ export const challenges = [
 		tester: ["console.log(countChars('Peggy Porth'));"],
 		methods: ["", "", ""],
 		explanations: ["", "", "", ""],
-		github: "",
+		github:
+			"https://github.com/IsabelTizon/js-challenges/blob/main/src/app/scrimba/exercises/countChars.js",
 	},
 	{
 		id: 11,
