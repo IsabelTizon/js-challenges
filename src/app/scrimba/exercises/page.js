@@ -11,7 +11,8 @@
 // import { reverseStr } from "./reverseStr";
 // import { reverseStrArray } from "./reverseStr";
 // import { isPalindrome } from "./isPalindrome";
-import { removingDuplicates } from "./removingDuplicates";
+// import { removingDuplicates } from "./removingDuplicates";
+import { countChars } from "./countChars";
 
 export default function courseConsole() {
 	return (
@@ -81,10 +82,12 @@ export default function courseConsole() {
 // console.log(isPalindrome("madam"));
 
 // 10) Removing Duplicates characters Exercise
-console.log(removingDuplicates());
+// console.log(removingDuplicates());
 // console.log(removingDuplicates(password));
 
-// 11) exercise
+// 11) countChars exercise
+console.log(countChars());
+// console.log(countChars('Peggy Porth'));
 // 12) exercise
 // 13) exercise
 // 14) exercise
