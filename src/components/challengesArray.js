@@ -377,7 +377,7 @@ export const challenges = [
 			"Example input: 'Peggy Porth'",
 			"Example output: '{p: 2, e: 1, g: 2, y: 1, o: 1, r: 1, t: 1, h: 1}'",
 		],
-		tester: ["console.log(countChars('Peggy Porth'));"],
+		tester: ["console.log(countLetters('Peggy Porth'));"],
 		methods: ["", "", ""],
 		explanations: ["", "", "", ""],
 		github:

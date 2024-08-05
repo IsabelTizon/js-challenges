@@ -12,7 +12,7 @@
 // import { reverseStrArray } from "./reverseStr";
 // import { isPalindrome } from "./isPalindrome";
 // import { removingDuplicates } from "./removingDuplicates";
-import { countChars } from "./countChars";
+import { countChar } from "./countChar";
 
 export default function courseConsole() {
 	return (
@@ -86,8 +86,9 @@ export default function courseConsole() {
 // console.log(removingDuplicates(password));
 
 // 11) countChars exercise
-console.log(countChars());
-// console.log(countChars('Peggy Porth'));
+// console.log(countChars());
+console.log(countChar("Peggy Porth"));
+console.log(countChar("Peggy porth 1988"));
 // 12) exercise
 // 13) exercise
 // 14) exercise
