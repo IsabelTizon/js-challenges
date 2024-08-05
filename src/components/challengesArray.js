@@ -376,10 +376,28 @@ export const challenges = [
 		examples: [
 			"Example input: 'Peggy Porth'",
 			"Example output: '{p: 2, e: 1, g: 2, y: 1, o: 1, r: 1, t: 1, h: 1}'",
+			"Example input: 'Peggy porth 1988'",
+			"Example output: '{P: 1, e: 1, g: 2, y: 1,p: 1,  o: 1, r: 1, t: 1, h: 1, ' ': 2, 1: 1, 9: 1, 8: 2 }'",
 		],
-		tester: ["console.log(countLetters('Peggy Porth'));"],
-		methods: ["", "", ""],
-		explanations: ["", "", "", ""],
+		tester: [
+			"console.log(countChar('Peggy Porth'));",
+			"console.log(countChar('Peggy porth 1988'));",
+		],
+		methods: [
+			".split()",
+			".reduce((counts, char) => {...}, {})",
+			"",
+		],
+		explanations: [
+			".split(): to convert a str into an array",
+			".reduce((counts, char) => {...}, {}):  iterates over each character in the array, using an accumulator object counts to store the counts of each character.",
+			"The counts object is initialized as an empty object {}.",
+			"For each character char in the array, the code checks if the character already exists as a key in the counts object.",
+			"counts[char] = (counts[char] || 0) + 1] ",
+			"If counts[char] is already defined, it increments the count by 1.",
+			"initializes counts[char] to 0 and then increments it by 1.",
+			"After processing all characters, the reduce function returns the counts object containing the counts of each character.",
+		],
 		github:
 			"https://github.com/IsabelTizon/js-challenges/blob/main/src/app/scrimba/exercises/countChars.js",
 	},
