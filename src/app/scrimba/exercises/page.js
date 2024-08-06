@@ -87,9 +87,25 @@ export default function courseConsole() {
 
 // 11) countChars exercise
 // console.log(countChars());
-console.log(countChar("Peggy Porth"));
-console.log(countChar("Peggy porth 1988"));
-// 12) exercise
+// console.log(countChar("Peggy Porth"));
+// console.log(countChar("Peggy porth 1988"));
+
+// 12) Remove Duplicates From Array Exercise
+// const eggScrambleRecipe = [
+// 	"🥓 bacon",
+// 	"🥓 bacon",
+// 	"🍳 eggs",
+// 	"🫑 green peppers",
+// 	"🧀 cheese",
+// 	"🌶️ hot sauce",
+// 	"🥓 bacon",
+// 	"🥦 broccoli",
+// 	"🧀 cheese",
+// 	"🥦 broccoli",
+// 	"🌶️ hot sauce",
+// ];
+//console.log(removeDupesArr());
+//console.log(removeDupesArr(eggScrambleRecipe));
 // 13) exercise
 // 14) exercise
 // 15) exercise

@@ -403,15 +403,22 @@ export const challenges = [
 	},
 	{
 		id: 11,
-		name: "",
-		descriptions: [" "],
+		name: "Remove Duplicates From Array",
+		descriptions: [
+			"Chef Mario's Recipe Book",
+			"Chef Mario was in the middle of writing his cookbook masterpiece when he spilled coffee on his keyboard! Now all his recipes have repeat ingredients.",
+			"Help save Chef Mario's cookbook by writing a function that takes in an array  and returns a new array with all the duplicates removed. ",
+			"function removeDupesFromArray(arr){}",
+		],
 		examples: [
-			"Example input: ''",
-			"Example output: ",
+			"Example input: '🌈 rainbow','🦄 unicorn','🍭 lollipops','🦄 unicorn', '🍭 lollipops'",
+			"Example output: 🌈 rainbow',''🦄 unicorn','🍭 lollipops",
 			"Example input: ''",
 			"Example output: ",
 		],
-		tester: [""],
+		tester: [
+			"console.log(removeDupesArr(eggScrambleRecipe));",
+		],
 		methods: ["", "", ""],
 		explanations: ["", "", "", ""],
 		github: "",
