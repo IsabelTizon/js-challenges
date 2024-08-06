@@ -12,7 +12,8 @@
 // import { reverseStrArray } from "./reverseStr";
 // import { isPalindrome } from "./isPalindrome";
 // import { removingDuplicates } from "./removingDuplicates";
-import { countChar } from "./countChar";
+// import { countChar } from "./countChar";
+import { removeDupesArr } from "./removeDupesArr";
 
 export default function courseConsole() {
 	return (
@@ -104,7 +105,7 @@ export default function courseConsole() {
 // 	"🥦 broccoli",
 // 	"🌶️ hot sauce",
 // ];
-//console.log(removeDupesArr());
+console.log(removeDupesArr());
 //console.log(removeDupesArr(eggScrambleRecipe));
 // 13) exercise
 // 14) exercise
