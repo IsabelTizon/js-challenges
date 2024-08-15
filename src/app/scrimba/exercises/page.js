@@ -18,12 +18,8 @@ import { removeDupesArr } from "./removeDupesArr";
 export default function courseConsole() {
 	return (
 		<div>
-			<h1 className="mb-10">
-				Try your exercises on the client side!
-			</h1>
-			<p>
-				This page is to try each exercise by the client side
-			</p>
+			<h1 className="mb-10">Try your exercises on the client side!</h1>
+			<p>This page is to try each exercise by the client side</p>
 		</div>
 	);
 }
@@ -92,21 +88,21 @@ export default function courseConsole() {
 // console.log(countChar("Peggy porth 1988"));
 
 // 12) Remove Duplicates From Array Exercise
-// const eggScrambleRecipe = [
-// 	"🥓 bacon",
-// 	"🥓 bacon",
-// 	"🍳 eggs",
-// 	"🫑 green peppers",
-// 	"🧀 cheese",
-// 	"🌶️ hot sauce",
-// 	"🥓 bacon",
-// 	"🥦 broccoli",
-// 	"🧀 cheese",
-// 	"🥦 broccoli",
-// 	"🌶️ hot sauce",
-// ];
+const eggScrambleRecipe = [
+	"🥓 bacon",
+	"🥓 bacon",
+	"🍳 eggs",
+	"🫑 green peppers",
+	"🧀 cheese",
+	"🌶️ hot sauce",
+	"🥓 bacon",
+	"🥦 broccoli",
+	"🧀 cheese",
+	"🥦 broccoli",
+	"🌶️ hot sauce",
+];
 console.log(removeDupesArr());
-//console.log(removeDupesArr(eggScrambleRecipe));
+console.log(removeDupesArr(eggScrambleRecipe));
 // 13) exercise
 // 14) exercise
 // 15) exercise
