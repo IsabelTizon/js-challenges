@@ -232,13 +232,7 @@ export const challenges = [
 			"console.log(isAnagram('allergy, 'gallery'));",
 			"console.log(isAnagram('treasure', 'measure'));",
 		],
-		methods: [
-			".length",
-			".split()",
-			".toLowerCase()",
-			".sort()",
-			".join(' ')",
-		],
+		methods: [".length", ".split()", ".toLowerCase()", ".sort()", ".join(' ')"],
 		explanations: [
 			"Primero de todo deberemos de ver si tienen la misma longitud, si no la tienen ya desacartamos que sean anagramas",
 			"str1.toLowerCase().split('').sort().join('');",
@@ -320,9 +314,7 @@ export const challenges = [
 			"console.log(isPalindrome('pumpkins'));",
 			"console.log(isPalindrome('madam'));",
 		],
-		methods: [
-			"to reverse str: .split('').reverse().join('')",
-		],
+		methods: ["to reverse str: .split('').reverse().join('')"],
 		explanations: [
 			"Reverse is an array method and you can not using on a str. What I first need to do is pass my str into an array with the split() method",
 			"to reverse str:",
@@ -344,10 +336,7 @@ export const challenges = [
 			"const password = '9338dsabbbadjdjdj2sdfdfdf282ff8fdsd888ss8cfgfg332q23'; ",
 			"function removingDuplicates(chars){}",
 		],
-		examples: [
-			"Example input: 'aabbccb1212'",
-			"Example output: 'abc12'",
-		],
+		examples: ["Example input: 'aabbccb1212'", "Example output: 'abc12'"],
 		tester: ["console.log(removingDuplicates(password));"],
 		methods: [
 			"empty variable",
@@ -383,11 +372,7 @@ export const challenges = [
 			"console.log(countChar('Peggy Porth'));",
 			"console.log(countChar('Peggy porth 1988'));",
 		],
-		methods: [
-			".split()",
-			".reduce((counts, char) => {...}, {})",
-			"",
-		],
+		methods: [".split()", ".reduce((counts, char) => {...}, {})", ""],
 		explanations: [
 			".split(): to convert a str into an array",
 			".reduce((counts, char) => {...}, {}):  iterates over each character in the array, using an accumulator object counts to store the counts of each character.",
@@ -416,11 +401,15 @@ export const challenges = [
 			"Example input: ''",
 			"Example output: ",
 		],
-		tester: [
-			"console.log(removeDupesArr(eggScrambleRecipe));",
+		tester: ["console.log(removeDupesArr(eggScrambleRecipe));"],
+		methods: ["return [...new Set(arr)]", "", ""],
+		explanations: [
+			"return [...new Set(arr)]",
+			"The Set object is a built-in JavaScript feature that stores unique values of any type. When you pass an array to a Set, it automatically removes duplicate values. You can then convert the Set back to an array.",
+			"",
+			"",
+			"",
 		],
-		methods: ["", "", ""],
-		explanations: ["", "", "", ""],
 		github:
 			"https://github.com/IsabelTizon/js-challenges/blob/main/src/app/scrimba/exercises/removeDupesArr.js",
 	},

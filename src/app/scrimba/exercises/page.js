@@ -103,6 +103,8 @@ const eggScrambleRecipe = [
 ];
 console.log(removeDupesArr());
 console.log(removeDupesArr(eggScrambleRecipe));
+console.log(removeDupesArr(eggScrambleRecipe));
+
 // 13) exercise
 // 14) exercise
 // 15) exercise
