@@ -402,7 +402,11 @@ export const challenges = [
 			"Example output: ",
 		],
 		tester: ["console.log(removeDupesArr(eggScrambleRecipe));"],
-		methods: ["return [...new Set(arr)]", "", ""],
+		methods: [
+			"One way: Set",
+			"Another way: filter",
+			"Third way: forEach, if, includes(), push()",
+		],
 		explanations: [
 			"Firts way to resolve the exercise: Set",
 			"return [...new Set(arr)]",
@@ -428,6 +432,8 @@ export const challenges = [
 			"Comparison between Set and filter",
 			"Set: This is a more modern and efficient approach, especially for large arrays, as it handles duplicates automatically and is concise.",
 			"filter + indexOf: This method is more traditional and might be more intuitive for beginners, but it could be less efficient for large arrays because it involves multiple passes over the array.",
+			"Third way to resolve the exercise: forEach, if, includes(), push()",
+			"Hago un loop con el método forEach para iterar el array. Si la variable que he creado inicializándola como un array vacio no incluye el elemento hago un push",
 		],
 		github:
 			"https://github.com/IsabelTizon/js-challenges/blob/main/src/app/scrimba/exercises/removeDupesArr.js",
