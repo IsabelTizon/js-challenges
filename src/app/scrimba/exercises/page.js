@@ -15,6 +15,7 @@
 // import { countChar } from "./countChar";
 import { removeDupesArr } from "./removeDupesArr";
 import { removeDupesArr2 } from "./removeDupesArr";
+import { removeDupesArr3 } from "./removeDupesArr";
 
 export default function courseConsole() {
 	return (
@@ -105,6 +106,7 @@ const eggScrambleRecipe = [
 console.log(removeDupesArr());
 console.log(removeDupesArr(eggScrambleRecipe));
 console.log(removeDupesArr2(eggScrambleRecipe));
+console.log(removeDupesArr3(eggScrambleRecipe));
 
 // 13) exercise
 // 14) exercise
