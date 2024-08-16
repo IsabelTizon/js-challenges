@@ -27,5 +27,14 @@ export function removeDupesArr2(arr) {
 }
 export function removeDupesArr3(arr) {
 	console.log(`3.1) Hello Remove Duplicates From Array 3 Exercise!!!!!`);
+	const uniqueItems = [];
 
+	arr.forEach((item) => {
+		if (!uniqueItems.includes(item)) {
+			uniqueItems.push(item);
+		}
+	});
+	console.log(`3.2) uniqueItems: ${uniqueItems}`);
+
+	return uniqueItems;
 }
