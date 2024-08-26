@@ -456,7 +456,8 @@ export const challenges = [
 		],
 		methods: ["", "", ""],
 		explanations: ["", "", "", ""],
-		github: "",
+		github:
+			"https://github.com/IsabelTizon/js-challenges/blob/main/src/app/scrimba/exercises/flatten.js",
 	},
 	{
 		id: 13,
