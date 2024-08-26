@@ -13,9 +13,10 @@
 // import { isPalindrome } from "./isPalindrome";
 // import { removingDuplicates } from "./removingDuplicates";
 // import { countChar } from "./countChar";
-import { removeDupesArr } from "./removeDupesArr";
-import { removeDupesArr2 } from "./removeDupesArr";
-import { removeDupesArr3 } from "./removeDupesArr";
+// import { removeDupesArr } from "./removeDupesArr";
+// import { removeDupesArr2 } from "./removeDupesArr";
+// import { removeDupesArr3 } from "./removeDupesArr";
+import { flatten } from "./flatten";
 
 export default function courseConsole() {
 	return (
@@ -109,6 +110,32 @@ console.log(removeDupesArr2(eggScrambleRecipe));
 console.log(removeDupesArr3(eggScrambleRecipe));
 
 // 13) exercise
+const kittyScores = [
+	[39, 99, 76],
+	89,
+	98,
+	[87, 56, 90],
+	[96, 95],
+	40,
+	78,
+	50,
+	[63],
+];
+
+const kittyPrizes = [
+	["💰", "🐟", "🐟"],
+	"🏆",
+	"💐",
+	"💵",
+	["💵", "🏆"],
+	["🐟", "💐", "💐"],
+	"💵",
+	"💵",
+	["🐟"],
+	"🐟",
+];
+console.log(kittyScores);
+console.log(kittyPrizes);
 // 14) exercise
 // 15) exercise
 // 16) exercise
