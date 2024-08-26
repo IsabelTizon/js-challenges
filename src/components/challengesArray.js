@@ -444,6 +444,8 @@ export const challenges = [
 		descriptions: [
 			"Scrimba mascot Pumpkin has won the grand prize at an international show. Below are Pumpkin's scores from the judges, as well as all the prizes he's won. In all the excitement of victory, they've become a jumbled mess of nested arrays Let's help Pumpkin by sorting it out. ",
 			"Write a function to flatten nested arrays of strings or numbers into a single array. There's a method for this, but pratice both doing it manually and using the method. ",
+			"const kittyScores = [[39, 99, 76],89,98,[87, 56, 90],[96, 95],40,78,50,[63],];",
+			"const kittyPrizes = [['💰', '🐟', /'🐟'],'🏆','💐','💵',['💵', '🏆'],['🐟', '💐', '💐'],'💵','💵',['🐟'],'🐟',];",
 			"function flatten(arr){}",
 		],
 		examples: [
