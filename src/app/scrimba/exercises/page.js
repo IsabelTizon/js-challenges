@@ -104,10 +104,10 @@ const eggScrambleRecipe = [
 	"🥦 broccoli",
 	"🌶️ hot sauce",
 ];
-console.log(removeDupesArr());
-console.log(removeDupesArr(eggScrambleRecipe));
-console.log(removeDupesArr2(eggScrambleRecipe));
-console.log(removeDupesArr3(eggScrambleRecipe));
+// console.log(removeDupesArr());
+// console.log(removeDupesArr(eggScrambleRecipe));
+// console.log(removeDupesArr2(eggScrambleRecipe));
+// console.log(removeDupesArr3(eggScrambleRecipe));
 
 // 13) exercise
 const kittyScores = [
@@ -134,8 +134,11 @@ const kittyPrizes = [
 	["🐟"],
 	"🐟",
 ];
-console.log(kittyScores);
-console.log(kittyPrizes);
+
+// console.log(kittyScores);
+// console.log(kittyPrizes);
+console.log(flatten());
+
 // 14) exercise
 // 15) exercise
 // 16) exercise

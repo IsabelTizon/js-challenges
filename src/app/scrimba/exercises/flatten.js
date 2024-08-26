@@ -1,4 +1,4 @@
-export const flatten = () => {
+export function flatten() {
 	console.log(`1) Hello Flatten array exercise!!`);
-	// return <div>flatten</div>;
-};
+	return `RETURN) Hello Flatten array exercise!!`;
+}
