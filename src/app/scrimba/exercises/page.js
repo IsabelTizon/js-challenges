@@ -17,6 +17,7 @@
 // import { removeDupesArr2 } from "./removeDupesArr";
 // import { removeDupesArr3 } from "./removeDupesArr";
 import { flatten } from "./flatten";
+import { flatten2 } from "./flatten";
 
 export default function courseConsole() {
 	return (
@@ -91,19 +92,19 @@ export default function courseConsole() {
 // console.log(countChar("Peggy porth 1988"));
 
 // 12) Remove Duplicates From Array Exercise
-const eggScrambleRecipe = [
-	"🥓 bacon",
-	"🥓 bacon",
-	"🍳 eggs",
-	"🫑 green peppers",
-	"🧀 cheese",
-	"🌶️ hot sauce",
-	"🥓 bacon",
-	"🥦 broccoli",
-	"🧀 cheese",
-	"🥦 broccoli",
-	"🌶️ hot sauce",
-];
+// const eggScrambleRecipe = [
+// 	"🥓 bacon",
+// 	"🥓 bacon",
+// 	"🍳 eggs",
+// 	"🫑 green peppers",
+// 	"🧀 cheese",
+// 	"🌶️ hot sauce",
+// 	"🥓 bacon",
+// 	"🥦 broccoli",
+// 	"🧀 cheese",
+// 	"🥦 broccoli",
+// 	"🌶️ hot sauce",
+// ];
 // console.log(removeDupesArr());
 // console.log(removeDupesArr(eggScrambleRecipe));
 // console.log(removeDupesArr2(eggScrambleRecipe));
@@ -135,9 +136,13 @@ const kittyPrizes = [
 	"🐟",
 ];
 
-// console.log(kittyScores);
-// console.log(kittyPrizes);
-console.log(flatten());
+// console.log(flatten());
+console.log(kittyScores);
+console.log(flatten(kittyScores));
+console.log(kittyPrizes);
+console.log(flatten(kittyPrizes));
+console.log(flatten2(kittyScores));
+console.log(flatten2(kittyPrizes));
 
 // 14) exercise
 // 15) exercise
