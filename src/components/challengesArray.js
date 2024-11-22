@@ -477,7 +477,8 @@ export const challenges = [
 		tester: [""],
 		methods: ["", "", ""],
 		explanations: ["", "", "", ""],
-		github: "",
+		github:
+			"https://github.com/IsabelTizon/js-challenges/blob/main/src/app/scrimba/exercises/countStudents.js",
 	},
 	{
 		id: 14,
