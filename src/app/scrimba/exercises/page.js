@@ -19,7 +19,8 @@ import { Aref_Ruqaa } from "next/font/google";
 // import { removeDupesArr3 } from "./removeDupesArr";
 // import { flatten } from "./flatten";
 // import { flatten2 } from "./flatten";
-import { sumArr } from "./countStudents";
+// import { sumArr } from "./countStudents";
+import { sumArr2 } from "./countStudents2";
 
 export default function courseConsole() {
 	return (
@@ -146,12 +147,14 @@ export default function courseConsole() {
 // console.log(flatten2(kittyScores));
 // console.log(flatten2(kittyPrizes));
 
-// 14) exercise
+// 14) Count Scrimba Students Exercise with reduce method
 // console.log(countStudents());
-const studentArr = [50, 53, 61, 67, 60, 70, 78, 80, 80, 81, 90, 110];
-console.log(`Scrimba Students total number: ${sumArr(studentArr)}`);
+// const studentArr = [50, 53, 61, 67, 60, 70, 78, 80, 80, 81, 90, 110];
+// console.log(`Scrimba Students total number: ${sumArr(studentArr)}`);
 
-// 15) exercise
+// 15) Count Scrimba Students Exercise with forEach method
+const studentArr = [50, 53, 61, 67, 60, 70, 78, 80, 80, 81, 90, 110];
+console.log(`Scrimba Students total number: ${sumArr2(studentArr)}`);
 // 16) exercise
 // 17) exercise
 // 18) exercise

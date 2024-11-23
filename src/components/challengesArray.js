@@ -475,10 +475,17 @@ export const challenges = [
 		],
 		examples: ["Example input: [1,2,3]", "Example output: 6"],
 		tester: [""],
-		methods: ["", "", ""],
-		explanations: ["", "", "", ""],
-		github:
+		methods: ["reduce()", "forEach()", ""],
+		explanations: [
+			"Exercise 2: The return statement must be outside the forEach() loop, on the same level as the function body, not nested inside the loop!!!",
+			"",
+			"",
+			"",
+		],
+		github: [
 			"https://github.com/IsabelTizon/js-challenges/blob/main/src/app/scrimba/exercises/countStudents.js",
+			"https://github.com/IsabelTizon/js-challenges/blob/main/src/app/scrimba/exercises/countStudents.js",
+		],
 	},
 	{
 		id: 14,
