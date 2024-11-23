@@ -484,7 +484,6 @@ export const challenges = [
 		],
 		github: [
 			"https://github.com/IsabelTizon/js-challenges/blob/main/src/app/scrimba/exercises/countStudents.js",
-			"https://github.com/IsabelTizon/js-challenges/blob/main/src/app/scrimba/exercises/countStudents.js",
 		],
 	},
 	{
