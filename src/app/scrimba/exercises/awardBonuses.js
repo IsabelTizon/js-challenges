@@ -2,13 +2,10 @@ export function awardBonuses() {
 	console.log("100 employees: employees = [0,1,2,3,4...]");
 
 	//Este código crea un array de 100 objetos, donde cada objeto representa un empleado con un id y un nombre.
-	const employees = Array.from(
-		{ length: 100 },
-		(_, index) => ({
-			id: index + 1,
-			name: `employee ${index + 1}`,
-		})
-	);
+	const employees = Array.from({ length: 100 }, (_, index) => ({
+		id: index + 1,
+		name: `employee ${index + 1}`,
+	}));
 	// ${employees} muestra por consola muchos arrays
 	console.log(
 		`++++++++++++++++++++++++++ CONSOLE.LOG OF employees CON EL SIMBOLO DEL DOLAR Y LA PALABRA EN CURLY BRACES DANDO COMO RESULTADO 100 ARRAYS. E.G ===> ${employees}`
@@ -23,9 +20,7 @@ export function awardBonuses() {
 	console.log("Using forEach():");
 
 	employees.forEach((employee) => {
-		console.log(
-			`ID: ${employee.id}, Name: ${employee.name}`
-		);
+		console.log(`ID: ${employee.id}, Name: ${employee.name}`);
 
 		//Conditional Staments
 		// It is divisible by 3 and 5
@@ -42,9 +37,7 @@ export function awardBonuses() {
 				`=====> Congratulations ${employee.name} You won a 100,000 bonus!`
 			);
 		} else {
-			console.log(
-				`=====> :( Sorry ${employee.name} not this time`
-			);
+			console.log(`=====> :( Sorry ${employee.name} not this time`);
 		}
 	});
 

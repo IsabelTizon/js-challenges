@@ -1,5 +1,6 @@
 "use client";
 
+import { Aref_Ruqaa } from "next/font/google";
 // import { panic } from "./panic";
 // import { whispering } from "./whispering";
 // import { alternatingCaps } from "./alternatingCaps";
@@ -16,8 +17,9 @@
 // import { removeDupesArr } from "./removeDupesArr";
 // import { removeDupesArr2 } from "./removeDupesArr";
 // import { removeDupesArr3 } from "./removeDupesArr";
-import { flatten } from "./flatten";
-import { flatten2 } from "./flatten";
+// import { flatten } from "./flatten";
+// import { flatten2 } from "./flatten";
+import { countStudents } from "./countStudents";
 
 export default function courseConsole() {
 	return (
@@ -111,40 +113,42 @@ export default function courseConsole() {
 // console.log(removeDupesArr3(eggScrambleRecipe));
 
 // 13) exercise
-const kittyScores = [
-	[39, 99, 76],
-	89,
-	98,
-	[87, 56, 90],
-	[96, 95],
-	40,
-	78,
-	50,
-	[63],
-];
+// const kittyScores = [
+// 	[39, 99, 76],
+// 	89,
+// 	98,
+// 	[87, 56, 90],
+// 	[96, 95],
+// 	40,
+// 	78,
+// 	50,
+// 	[63],
+// ];
 
-const kittyPrizes = [
-	["💰", "🐟", "🐟"],
-	"🏆",
-	"💐",
-	"💵",
-	["💵", "🏆"],
-	["🐟", "💐", "💐"],
-	"💵",
-	"💵",
-	["🐟"],
-	"🐟",
-];
+// const kittyPrizes = [
+// 	["💰", "🐟", "🐟"],
+// 	"🏆",
+// 	"💐",
+// 	"💵",
+// 	["💵", "🏆"],
+// 	["🐟", "💐", "💐"],
+// 	"💵",
+// 	"💵",
+// 	["🐟"],
+// 	"🐟",
+// ];
 
 // console.log(flatten());
-console.log(kittyScores);
-console.log(flatten(kittyScores));
-console.log(kittyPrizes);
-console.log(flatten(kittyPrizes));
-console.log(flatten2(kittyScores));
-console.log(flatten2(kittyPrizes));
+// console.log(kittyScores);
+// console.log(flatten(kittyScores));
+// console.log(kittyPrizes);
+// console.log(flatten(kittyPrizes));
+// console.log(flatten2(kittyScores));
+// console.log(flatten2(kittyPrizes));
 
 // 14) exercise
+console.log(countStudents());
+
 // 15) exercise
 // 16) exercise
 // 17) exercise
