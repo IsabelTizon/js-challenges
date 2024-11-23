@@ -471,7 +471,7 @@ export const challenges = [
 			"Your function should take in an array and return a number representing the total number of new attendees.",
 			"const studentCount = [50,53,61,67,60,70,78,80,80,81,90,110];",
 			"function sumArray(arr){}",
-			"console.log(sumArray(studentCount));",
+			"console.log(sumArray(studentArr));",
 		],
 		examples: ["Example input: [1,2,3]", "Example output: 6"],
 		tester: [""],
