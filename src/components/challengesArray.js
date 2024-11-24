@@ -471,16 +471,12 @@ export const challenges = [
 			"Your function should take in an array and return a number representing the total number of new attendees.",
 			"const studentCount = [50,53,61,67,60,70,78,80,80,81,90,110];",
 			"function sumArray(arr){}",
-			"console.log(sumArray(studentArr));",
 		],
 		examples: ["Example input: [1,2,3]", "Example output: 6"],
-		tester: [""],
+		tester: ["console.log(sumArray(studentArr));"],
 		methods: ["reduce()", "forEach()", ""],
 		explanations: [
 			"Exercise 2: The return statement must be outside the forEach() loop, on the same level as the function body, not nested inside the loop!!!",
-			"",
-			"",
-			"",
 		],
 		github: [
 			"https://github.com/IsabelTizon/js-challenges/blob/main/src/app/scrimba/exercises/countStudents.js",
@@ -488,15 +484,20 @@ export const challenges = [
 	},
 	{
 		id: 14,
-		name: "",
-		descriptions: [" "],
-		examples: [
-			"Example input: ''",
-			"Example output: ",
-			"Example input: ''",
-			"Example output: ",
+		name: "Pizza Night?",
+		descriptions: [
+			"It's the weekend and you and your friends can't agree on what to order for dinner, so you put it to a vote. ",
+			"Write a function to find the food with the highest number of votes. ",
+			"Your function should take in a food object and find the food with the most votes. It should log the winner, along with how many votes it received. ",
+			"const gameNightFood = {'🍕 pizza': 3, '🌮 tacos': 10, '🥗 salads': 7, '🍝 pasta': 5}",
+			"function findTheWinner(obj){}",
+			"",
 		],
-		tester: [""],
+		examples: [
+			"Example input: {'🐈 cats': 19, '🐕 dogs': 17",
+			"Example output: The winner is 🐈 cats with 19 votes!",
+		],
+		tester: ["console.log(findTheWinner(gameNightFood));"],
 		methods: ["", "", ""],
 		explanations: ["", "", "", ""],
 		github: "",
@@ -504,7 +505,7 @@ export const challenges = [
 	{
 		id: 15,
 		name: "",
-		descriptions: [" "],
+		descriptions: ["", "", "", "", "", "", "", "", ""],
 		examples: [
 			"Example input: ''",
 			"Example output: ",
@@ -519,7 +520,7 @@ export const challenges = [
 	{
 		id: 16,
 		name: "",
-		descriptions: [" "],
+		descriptions: ["", "", "", "", "", "", "", "", ""],
 		examples: [
 			"Example input: ''",
 			"Example output: ",
