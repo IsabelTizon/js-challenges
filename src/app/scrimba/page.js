@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { challenges } from "../../components/challengesArray";
+import { challenges } from "../../components/arrays/challengesArray";
 
 export const metadata = {
 	title: "Scrimba Interview Challenges",
@@ -12,9 +12,7 @@ export default function Scrimba() {
 	console.log("challenges", challenges);
 	return (
 		<div>
-			<div className="mb-10">
-				JavaScript Interview Challenges
-			</div>
+			<div className="mb-10">JavaScript Interview Challenges</div>
 			<div className="flex flex-col">
 				{challenges.map((challenge) => (
 					<Link

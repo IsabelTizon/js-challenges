@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
-import { homeCourses } from "@/components/homeArr";
+import { homeCourses } from "@/components/arrays/homeArr";
 
 export default function Home() {
 	return (
@@ -43,7 +43,7 @@ export default function Home() {
 				<h1 className={`mb-3 text-7xl font-bold`}>JavaScript </h1>
 			</div>
 
-			{/* Cards */}
+			{/* Courses Cards */}
 			<div className="mb-32 grid text-center lg:max-w-5xl lg:w-full lg:mb-0 lg:grid-cols-4 lg:text-left">
 				{homeCourses.map((course) => (
 					<Link
@@ -73,92 +73,3 @@ export default function Home() {
 		</main>
 	);
 }
-
-// {/* 1st card */}
-// 			{/* Interview challenges card */}
-// 			<Link
-// 				// href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-// 				// href="/scrimba"
-// 				key={homeCourses.href}
-// 				className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-// 				target="_blank"
-// 				rel="noopener noreferrer"
-// 			>
-// 				{/* Title Interview challenges card */}
-// 				<h2 className={`mb-3 text-2xl font-semibold`}>
-// 					Interview Challenges{" "}
-// 					<span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-// 						-&gt;
-// 					</span>
-// 				</h2>
-// 				{/* Paragraph Interview challenges card */}
-// 				<p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-// 					<span className="font-bold">Scrimba </span>
-// 					help to you for your essential tech interview preparation pack!
-// 					Practice solving problems and honing the skills you need to succeed
-// 					in a frontend coding interview.
-// 				</p>
-// 			</Link>
-
-// 			{/* 2nd card */}
-// 			{/* ? card */}
-// 			<a
-// 				href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-// 				className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800 hover:dark:bg-opacity-30"
-// 				target="_blank"
-// 				rel="noopener noreferrer"
-// 			>
-// 				{/* Title ? card */}
-// 				<h2 className={`mb-3 text-2xl font-semibold`}>
-// 					Learn{" "}
-// 					<span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-// 						-&gt;
-// 					</span>
-// 				</h2>
-// 				{/* Paragraph ? card */}
-// 				<p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-// 					Learn about Next.js in an interactive course with&nbsp;quizzes!
-// 				</p>
-// 			</a>
-
-// 			{/* 3rd card */}
-// 			{/* ? card */}
-// 			<a
-// 				href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-// 				className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-// 				target="_blank"
-// 				rel="noopener noreferrer"
-// 			>
-// 				{/* Title ? card */}
-// 				<h2 className={`mb-3 text-2xl font-semibold`}>
-// 					Templates{" "}
-// 					<span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-// 						-&gt;
-// 					</span>
-// 				</h2>
-// 				{/* Paragraph ? card */}
-// 				<p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-// 					Explore starter templates for Next.js.
-// 				</p>
-// 			</a>
-
-// 			{/* 4th card */}
-// 			{/* ? card */}
-// 			<a
-// 				href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-// 				className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-// 				target="_blank"
-// 				rel="noopener noreferrer"
-// 			>
-// 				{/* Title ? card */}
-// 				<h2 className={`mb-3 text-2xl font-semibold`}>
-// 					Deploy{" "}
-// 					<span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-// 						-&gt;
-// 					</span>
-// 					{/* Paragraph ? card */}
-// 				</h2>
-// 				<p className={`m-0 max-w-[30ch] text-sm opacity-50 text-balance`}>
-// 					Instantly deploy your Next.js site to a shareable URL with Vercel.
-// 				</p>
-// 			</a>

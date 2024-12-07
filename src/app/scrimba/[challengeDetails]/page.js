@@ -1,14 +1,12 @@
 import Link from "next/link";
-import { challenges } from "../../../components/challengesArray";
+import { challenges } from "../../../components/arrays/challengesArray";
 
 export default function ChallengeDetails({ params }) {
 	const { challengeDetails } = params;
 
 	const challenge = challenges[challengeDetails];
 
-	console.log(
-		"=================================================="
-	);
+	console.log("==================================================");
 	/*
 	DESESTRUCTURACION EN JS:
 	https://www.freecodecamp.org/news/destructuring-in-javascript/
@@ -21,18 +19,14 @@ export default function ChallengeDetails({ params }) {
 	params =>  { challengeDetails: '0' }	
 	*/
 
-	console.log(
-		"=================================================="
-	);
+	console.log("==================================================");
 	// console.log("challengeDetails =>", challengeDetails);
 	/*
 	console.log("challengeDetails =>", challengeDetails);
 	challengeDetails = SOLO EL VALOR
 	(challengeDetails) => 0;	
 	*/
-	console.log(
-		"=================================================="
-	);
+	console.log("==================================================");
 	// console.log(
 	// 	"challenges[challengeDetails]===>",
 	// 	challenges[challengeDetails]
@@ -44,9 +38,7 @@ export default function ChallengeDetails({ params }) {
 	);		challenges= TODAS LOS OBJENTOS CON SUS PROPIEDADES Y VALORES
 	challenges[challengeDetails] = LAS PROPIEDADES Y LOS VALORES DEL OBJETO ESTABLECIDO
 	*/
-	console.log(
-		"=================================================="
-	);
+	console.log("==================================================");
 	// console.log("All Challenges", challenges);
 	/*
 	console.log("All Challenges", challenges);
@@ -61,22 +53,17 @@ export default function ChallengeDetails({ params }) {
 			</h1>
 			<h2 className="font-bold">Instructions</h2>
 			<div>
-				{challenge.descriptions.map(
-					(instructions, index) => {
-						// console.log(
-						// 	"challenge.description ===> ",
-						// 	challenge.description
-						// );
-						return (
-							<p
-								className="mt-[1rem]"
-								key={`${instructions}-${index}`}
-							>
-								{instructions}
-							</p>
-						);
-					}
-				)}
+				{challenge.descriptions.map((instructions, index) => {
+					// console.log(
+					// 	"challenge.description ===> ",
+					// 	challenge.description
+					// );
+					return (
+						<p className="mt-[1rem]" key={`${instructions}-${index}`}>
+							{instructions}
+						</p>
+					);
+				})}
 			</div>
 			<h2 className="font-bold">Examples</h2>
 			<div>
@@ -86,10 +73,7 @@ export default function ChallengeDetails({ params }) {
 					// 	challenge.example
 					// );
 					return (
-						<p
-							className="mt-[1rem]"
-							key={`${example}-${index}`}
-						>
+						<p className="mt-[1rem]" key={`${example}-${index}`}>
 							{example}
 						</p>
 					);
@@ -100,10 +84,7 @@ export default function ChallengeDetails({ params }) {
 				{challenge.tester.map((testing, index) => {
 					console.log("Tester: ", challenge.tester);
 					return (
-						<p
-							className="mt-[1rem]"
-							key={`${testing}-${index}`}
-						>
+						<p className="mt-[1rem]" key={`${testing}-${index}`}>
 							{testing}
 						</p>
 					);
@@ -116,26 +97,18 @@ export default function ChallengeDetails({ params }) {
 					// 	"challenge.methods ===> ",
 					// 	challenge.methods
 					// );
-					return (
-						<p key={`${method}-${index}`}> {method}</p>
-					);
+					return <p key={`${method}-${index}`}> {method}</p>;
 				})}
 			</div>
 			<h2 className="font-bold">Explanation</h2>
 			<div>
-				{challenge.explanations.map(
-					(clarification, index) => {
-						// console.log(
-						// 	"challenge.explanation ===> ",
-						// 	challenge.explanation
-						// );
-						return (
-							<p key={`${clarification}-${index}`}>
-								{clarification}
-							</p>
-						);
-					}
-				)}
+				{challenge.explanations.map((clarification, index) => {
+					// console.log(
+					// 	"challenge.explanation ===> ",
+					// 	challenge.explanation
+					// );
+					return <p key={`${clarification}-${index}`}>{clarification}</p>;
+				})}
 			</div>
 			<Link target="_blank" href={challenge.github}>
 				github
