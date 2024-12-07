@@ -18,7 +18,7 @@ export default function Scrimba() {
 					<Link
 						className=""
 						key={challenge.id}
-						href={`/scrimba/${challenge.id}`}
+						href={`/scrimbaChallengesJS/${challenge.id}`}
 					>
 						<h3>- {challenge.name}</h3>
 					</Link>
