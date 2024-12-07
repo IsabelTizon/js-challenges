@@ -21,6 +21,7 @@ import { Aref_Ruqaa } from "next/font/google";
 // import { flatten2 } from "./flatten";
 // import { sumArr } from "./countStudents";
 // import { sumArr2 } from "./countStudents2";
+import { findTheWinner } from "./pizzaNight";
 
 export default function courseConsole() {
 	return (
@@ -156,86 +157,55 @@ export default function courseConsole() {
 // const studentArr = [50, 53, 61, 67, 60, 70, 78, 80, 80, 81, 90, 110];
 // console.log(`Scrimba Students total number: ${sumArr2(studentArr)}`);
 
-// 16) exercise
-// 17) exercise
-// 18) exercise
-// 19) exercise
-// 20) exercise
-// 21) exercise
-// 22) exercise
-// 23) exercise
-// 24) exercise
-// 25) exercise
-// 26) exercise
-// 27) exercise
-// 28) exercise
-// 29) exercise
-// 30) exercise
-// 31) exercise
-// 32) exercise
-// 33) exercise
-// 34) exercise
-// 35) exercise
-// 36) exercise
-// 37) exercise
-// 38) exercise
-// 39) exercise
-// 40) exercise
-// 41) exercise
-// 42) exercise
-// 43) exercise
-// 44) exercise
-// 45) exercise
-// 46) exercise
-// 47) exercise
-// 48) exercise
-// 49) exercise
-// 50) exercise
-// 51) exercise
-// 52) exercise
-// 53) exercise
-// 54) exercise
-// 55) exercise
-// 56) exercise
-// 57) exercise
-// 58) exercise
-// 59) exercise
-// 60) exercise
-// 1) exercise
-// 1) exercise
-// 1) exercise
-// 1) exercise
-// 1) exercise
-// 1) exercise
-// 1) exercise
-// 1) exercise
-// 1) exercise
-// 1) exercise
-// 1) exercise
-// 1) exercise
-// 1) exercise
-// 1) exercise
-// 1) exercise
-// 1) exercise
-// 1) exercise
-// 1) exercise
-// 1) exercise
-// 1) exercise
-// 1) exercise
-// 1) exercise
-// 1) exercise
-// 1) exercise
-// 1) exercise
-// 1) exercise
-// 1) exercise
-// 1) exercise
-// 1) exercise
-// 1) exercise
-// 1) exercise
-// 1) exercise
-// 1) exercise
-// 1) exercise
-// 1) exercise
-// 1) exercise
-// 1) exercise
-// 1) exercise
+// 16) Pizza Night Exercise
+const gameNightFood = {
+	"🍕 pizza": 3,
+	"🌮 tacos": 10,
+	"🥗 salads": 7,
+	"🍝 pasta": 5,
+};
+console.log(findTheWinner(gameNightFood));
+// 17) Exercise
+// 18) Exercise
+// 19) Exercise
+// 20) Exercise
+// 21) Exercise
+// 22) Exercise
+// 23) Exercise
+// 24) Exercise
+// 25) Exercise
+// 26) Exercise
+// 27) Exercise
+// 28) Exercise
+// 29) Exercise
+// 30) Exercise
+// 31) Exercise
+// 32) Exercise
+// 33) Exercise
+// 34) Exercise
+// 35) Exercise
+// 36) Exercise
+// 37) Exercise
+// 38) Exercise
+// 39) Exercise
+// 40) Exercise
+// 41) Exercise
+// 42) Exercise
+// 43) Exercise
+// 44) Exercise
+// 45) Exercise
+// 46) Exercise
+// 47) Exercise
+// 48) Exercise
+// 49) Exercise
+// 50) Exercise
+// 51) Exercise
+// 52) Exercise
+// 53) Exercise
+// 54) Exercise
+// 55) Exercise
+// 56) Exercise
+// 57) Exercise
+// 58) Exercise
+// 59) Exercise
+// 60) Exercise
