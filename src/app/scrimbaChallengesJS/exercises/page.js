@@ -21,7 +21,7 @@ import { Aref_Ruqaa } from "next/font/google";
 // import { flatten2 } from "./flatten";
 // import { sumArr } from "./countStudents";
 // import { sumArr2 } from "./countStudents2";
-import { findTheWinner } from "./pizzaNight";
+// import { findTheWinner } from "./pizzaNight";
 
 export default function courseConsole() {
 	return (
@@ -158,13 +158,14 @@ export default function courseConsole() {
 // console.log(`Scrimba Students total number: ${sumArr2(studentArr)}`);
 
 // 16) Pizza Night Exercise
-const gameNightFood = {
-	"🍕 pizza": 3,
-	"🌮 tacos": 10,
-	"🥗 salads": 7,
-	"🍝 pasta": 5,
-};
-console.log(findTheWinner(gameNightFood));
+// const gameNightFood = {
+// 	"🍕 pizza": 3,
+// 	"🌮 tacos": 10,
+// 	"🥗 salads": 7,
+// 	"🍝 pasta": 5,
+// };
+// console.log(findTheWinner(gameNightFood));
+
 // 17) Exercise
 // 18) Exercise
 // 19) Exercise
