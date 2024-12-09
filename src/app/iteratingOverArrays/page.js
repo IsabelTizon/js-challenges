@@ -1,3 +1,5 @@
+import CodeBlock from "@/components/CodeBlock";
+
 export const metadata = {
 	title: "Iterating Over Arrays",
 	description: "Iterating Over Arrays Theory",
@@ -7,5 +9,48 @@ export const metadata = {
 // rfc(React Fuctional Component)
 
 export default function page() {
-	return <div>Hello Iterating Over Arrays</div>;
+	const foorLoop = `
+    const array = [1, 2, 3, 4, 5];
+
+    for (let i = 0; i < array.length; i++) {
+    console.log(array[i]);
+    }
+    `;
+	const foorOf = `
+    const array = [1, 2, 3, 4, 5];
+
+	for (const element of array) {
+		console.log(element);
+		}
+    `;
+
+	const forEach = `
+    const array = [1, 2, 3, 4, 5];
+    
+	array.forEach((element, index) => {
+    console.log(\`Índice: \${index}, Elemento: \${element}\`);
+    });
+    `;
+
+	const map = `
+    const array = [1, 2, 3, 4, 5];
+    
+    const squared = array.map((num) => num ** 2);
+    console.log(squared); // [1, 4, 9, 16, 25]
+    `;
+
+	return (
+		<div className="p-8">
+			<h1>Iterating Over Arrays</h1>
+
+			<h2>Bucle for clásico</h2>
+			<CodeBlock code={foorLoop} language="javascript" />
+			<h2>for ... of</h2>
+			<CodeBlock code={foorOf} language="javascript" />
+			<h2>forEach</h2>
+			<CodeBlock code={forEach} language="javascript" />
+			<h2>map</h2>
+			<CodeBlock code={map} language="javascript" />
+		</div>
+	);
 }
