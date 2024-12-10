@@ -16,6 +16,7 @@ export default function page() {
     console.log(array[i]);
     }
     `;
+
 	const foorOf = `
     const array = [1, 2, 3, 4, 5];
 
@@ -36,7 +37,24 @@ export default function page() {
     const array = [1, 2, 3, 4, 5];
     
     const squared = array.map((num) => num ** 2);
+
     console.log(squared); // [1, 4, 9, 16, 25]
+    `;
+
+	const filter = `
+    const array = [1, 2, 3, 4, 5];
+
+    const even = array.filter((num) => num % 2 === 0);
+
+    console.log(even); // [2, 4]
+    `;
+
+	const reduce = `
+    const array = [1, 2, 3, 4, 5];
+
+    const sum = array.reduce((acc, curr) => acc + curr, 0);
+    
+    console.log(sum); // 15
     `;
 
 	return (
@@ -51,6 +69,10 @@ export default function page() {
 			<CodeBlock code={forEach} language="javascript" />
 			<h2>map</h2>
 			<CodeBlock code={map} language="javascript" />
+			<h2>map</h2>
+			<CodeBlock code={filter} language="javascript" />
+			<h2>map</h2>
+			<CodeBlock code={reduce} language="javascript" />
 		</div>
 	);
 }
