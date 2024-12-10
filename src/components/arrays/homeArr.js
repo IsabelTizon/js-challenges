@@ -14,7 +14,21 @@ export const homeCourses = [
 			"Learn the basics of JavaScript by solving 140+ interactive coding challenges. Along the way you will build a game, a browser extension, and even a mobile app!",
 	},
 	{
-		id: 2,
+		id: 3,
+		href: "/scrimbaLearnBasics",
+		name: "Learn JS Basics",
+		intro:
+			"Learn the basics of JavaScript by solving 140+ interactive coding challenges. Along the way you will build a game, a browser extension, and even a mobile app!",
+	},
+	{
+		id: 4,
+		href: "/scrimbaLearnBasics",
+		name: "Learn JS Basics with Games",
+		intro:
+			"Learn the basics of JavaScript by solving 140+ interactive coding challenges. Along the way you will build a game, a browser extension, and even a mobile app!",
+	},
+	{
+		id: 5,
 		href: "/scrimbaLearnBasics",
 		name: "Learn JS Basics",
 		intro:
