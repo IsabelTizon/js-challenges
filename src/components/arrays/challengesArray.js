@@ -513,9 +513,9 @@ export const challenges = [
 			"Example output: ",
 		],
 		tester: [""],
-		methods: ["Arrow function WITHOUT {} and return", "arrow function WITH {} and return", "includes()", "toLowerCase()", "We DO NOT NEED an if case",],
-		explanations: ["EXERCISE 1: usar {} y return", "Si necesitas realizar varias operaciones dentro de la función, como calcular valores, declarar variables o tener lógica condicional compleja, deberás usar {}. Esto es porque dentro de un bloque de código ({}), JavaScript no sabe automáticamente qué valor devolver, por lo que necesitas especificar un return explícito.", "EXERCISE 1: función flecha sin {} (retorno implícito)", "Si la función es simple y realiza solo una operación o devuelve un valor directamente sin necesidad de lógica compleja, puedes omitir {}. En este caso, el valor después de la flecha se devuelve automáticamente, y no es necesario usar return."],
-		github: "",
+		methods: ["Arrow function WITHOUT {} and WITHOUT return", "arrow function WITH {} and return", "includes()", "toLowerCase()", "We DO NOT NEED an if case",],
+		explanations: [" - EXERCISE 1: usar {} y return", "Si necesitas realizar varias operaciones dentro de la función, como calcular valores, declarar variables o tener lógica condicional compleja, deberás usar {}. Esto es porque dentro de un bloque de código ({}), JavaScript no sabe automáticamente qué valor devolver, por lo que necesitas especificar un return explícito.", " - EXERCISE 2: función flecha sin {} (retorno implícito)", "Si la función es simple y realiza solo una operación o devuelve un valor directamente sin necesidad de lógica compleja, puedes omitir {}. En este caso, el valor después de la flecha se devuelve automáticamente, y no es necesario usar return."],
+		github: "https://github.com/IsabelTizon/js-challenges/blob/main/src/app/scrimbaChallengesJS/exercises/contarOvejas.js",
 	},
 	{
 		id: 16,
