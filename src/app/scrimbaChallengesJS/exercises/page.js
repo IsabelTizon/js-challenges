@@ -22,6 +22,9 @@ import { Aref_Ruqaa } from "next/font/google";
 // import { sumArr } from "./countStudents";
 // import { sumArr2 } from "./countStudents2";
 // import { findTheWinner } from "./pizzaNight";
+import {contarOvejas} from "./contarOvejas";
+import {contarOvejas2} from "./contarOvejas";
+
 
 export default function courseConsole() {
 	return (
@@ -166,7 +169,18 @@ export default function courseConsole() {
 // };
 // console.log(findTheWinner(gameNightFood));
 
-// 17) Exercise
+// 17) Contar Ovejas Exercise
+const ovejas = [
+	{ name: 'Noa', color: 'azul' },
+	{ name: 'Euge', color: 'rojo' },
+	{ name: 'Navidad', color: 'rojo' },
+	{ name: 'Ki Na Ma', color: 'rojo'},
+	{ name: 'AAAAAaaaaa', color: 'rojo' },
+	{ name: 'Nnnnnnnn', color: 'rojo'}
+  ]
+console.log(contarOvejas(ovejas));
+console.log(contarOvejas2(ovejas));
+// console.log(ovejas)
 // 18) Exercise
 // 19) Exercise
 // 20) Exercise
