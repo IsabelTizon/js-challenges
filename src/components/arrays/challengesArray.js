@@ -500,12 +500,12 @@ export const challenges = [
 		tester: ["console.log(findTheWinner(gameNightFood));"],
 		methods: ["", "", ""],
 		explanations: ["", "", "", ""],
-		github: "",
+		github: "https://github.com/IsabelTizon/js-challenges/blob/main/src/app/scrimbaChallengesJS/exercises/pizzaNight.js",
 	},
 	{
 		id: 15,
-		name: "",
-		descriptions: ["", "", "", "", "", "", "", "", ""],
+		name: "Contar Ovejas",
+		descriptions: ["Tienes un rebaño de ovejas y a cada una de ellas le has puesto un nombre. Estas ovejas también son de colores", "El veterinario te pide que le entregues una lista con todas las ovejas que sean de color rojo y que además su nombre contenga tanto las letras n Y a, sin importar el orden, las mayúsculas o espacios.", "Recuerda. Debe contener las dos letras 'a' y 'n' en el nombre. No cuentes ovejas que sólo tenga una de las letras, debe tener ambas.", "export default function contarOvejas(ovejas) {}", "", "", "", "", ""],
 		examples: [
 			"Example input: ''",
 			"Example output: ",
@@ -513,8 +513,8 @@ export const challenges = [
 			"Example output: ",
 		],
 		tester: [""],
-		methods: ["", "", ""],
-		explanations: ["", "", "", ""],
+		methods: ["Arrow function WITHOUT {} and return", "arrow function WITH {} and return", "includes()", "toLowerCase()", "We DO NOT NEED an if case",],
+		explanations: ["EXERCISE 1: usar {} y return", "Si necesitas realizar varias operaciones dentro de la función, como calcular valores, declarar variables o tener lógica condicional compleja, deberás usar {}. Esto es porque dentro de un bloque de código ({}), JavaScript no sabe automáticamente qué valor devolver, por lo que necesitas especificar un return explícito.", "EXERCISE 1: función flecha sin {} (retorno implícito)", "Si la función es simple y realiza solo una operación o devuelve un valor directamente sin necesidad de lógica compleja, puedes omitir {}. En este caso, el valor después de la flecha se devuelve automáticamente, y no es necesario usar return."],
 		github: "",
 	},
 	{
