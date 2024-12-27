@@ -1,7 +1,6 @@
 export function listGifts(str, prefix = '_') {
     console.log(`1)Hello list Gifts exercise!!`)  
-    
-   
+  
     // PASO 1 CONVERT STR TO ARR: 
     // 1) str.split(''), 2) spread operator[...str], 3) Array.from(str),
     // const strArr= [...carta];
@@ -17,7 +16,7 @@ export function listGifts(str, prefix = '_') {
     //El método .reduce() recorre todos los elementos de un array y, a medida que lo hace, va acumulando un valor (por ejemplo, un número, un objeto, un array, etc.) que se va modificando con cada elemento del array.
     const strObj = newStr.reduce((acc, item) => {
     // Si la palabra ya está en el objeto, sumamos 1 a su valor
-    acc[item] = acc[item] || 0 + 1;
+    acc[item] = (acc[item] || 0) + 1;
     // Devolvemos el acumulador para la siguiente iteración
      return acc;
     }, {}); // El acumulador empieza como un objeto vacío
