@@ -183,8 +183,8 @@ export default function courseConsole() {
 // console.log(contarOvejas2(ovejas));
 
 // 18) ListGifts Exercise
-console.log(listGifts());
 const carta = 'bici coche balón _playstation bici coche peluche';
+const compra = 'sandía sandía melón _arroz melocotones piña melocotones';
 console.log(listGifts(carta));
 // 19) Exercise
 // 20) Exercise
