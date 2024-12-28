@@ -528,8 +528,8 @@ export const challenges = [
 			"Example output: ",
 		],
 		tester: [""],
-		methods: ["", "", ""],
+		methods: ["function with parameters", "str.split(' ')", "filter()", ".startsWith()", ".reduce((acc, item) => {acc[item] = (acc[item] || 0) + 1; return acc;}, {});", "JSON.stringify()"],
 		explanations: ["", "", "", ""],
-		github: "",
+		github: "https://github.com/IsabelTizon/js-challenges/blob/main/src/app/scrimbaChallengesJS/exercises/listGifts.js",
 	},
 ];
