@@ -7,7 +7,7 @@ export function listGifts(str, prefix = '_') {
     const strArr = str.split(" ");
     console.log(`2) Str to Arr: ${strArr}`);
 
-    //  // PASO 2 SUBSTRACT THE ITEMS STARTS WITH '_'FROM  THE ARRAY
+    // PASO 2 SUBSTRACT THE ITEMS STARTS WITH '_'FROM  THE ARRAY
     // const newStr = strArr.filter(item => item.startsWith('_') ? false : true)
     const newStr = strArr.filter(item => !item.startsWith(prefix)) // Si el item no empieza por el prifijo, en este caso en el par'ametro por defecto '_', lo incluimos en el nuevo String
     console.log(`3) Carta sin '_': ${newStr}`)
