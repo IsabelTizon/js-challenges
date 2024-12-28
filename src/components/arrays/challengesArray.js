@@ -529,12 +529,12 @@ export const challenges = [
 		],
 		tester: [""],
 		methods: ["function with parameters", "str.split(' ')", "filter()", ".startsWith()", ".reduce((acc, item) => {acc[item] = (acc[item] || 0) + 1; return acc;}, {});", "JSON.stringify()"],
-		explanations: ["", "", "", ""],
+		explanations: ["PASO 1 CONVERT STR TO ARR: ", " 1) str.split(''),", "2) spread operator[...str],", "3) Array.from(str),", "PASO 2 SUBSTRACT THE ITEMS STARTS WITH '_'FROM  THE ARRAY", "with filter() and startWith()",, "PASO 3 CONVERT ARR TO OBJ  AND COUNT THE NUMBER OF TIMES EACH GIFT APPEARS", "reduce((acc, item)",, "PASO 4 RETURN THE RESULT AS AN ARRAY OF OBJECTS", "OJO!!",, "Usar JSON.stringify", "si no da [object Object]",, "Esto es porque se está tratando de insertar el objeto directamente dentro de una cadena de texto, y cuando JavaScript convierte un objeto en una cadena, por defecto devuelve la cadena [object Object]", "",, "", "",, "", "",, "", "",, "", "",, "", "",, "", "",],
 		github: "https://github.com/IsabelTizon/js-challenges/blob/main/src/app/scrimbaChallengesJS/exercises/listGifts.js",
 	},
 	{
 		id: 17,
-		name: "",
+		name: "Grinch's mischief",
 		descriptions: ["El Grinch está abriendo las cartas que iban a Santa Claus y las está dejando hechas un lío. 😱", "Las cartas son una cadena de texto que incluyen regalos y paréntesis ()", "Para saber si una carta es válida ✅, debes comprobar que los paréntesis cierran correctamente y que, además, no vayan vacíos.", "¡Pero ojo! Porque el Grinch ha dejado llaves { y corchetes [ dentro de los paréntesis que hacen que no sean válidas. Por suerte sólo los ha dejado en medio de los paréntesis...", "Crea una función que pasándole el texto de la carta, devuelva true si es válida y false si no lo es. ¡Y acaba con la travesura del Grinch!",],
 		examples: [
 			"'bici coche (balón) bici coche peluche // -> ✅'",
@@ -545,7 +545,7 @@ export const challenges = [
 		],
 		tester: [""],
 		methods: ["", "", "", "", "", ""],
-		explanations: ["", "", "", ""],
+		explanations: ["", "", "", "", "", "",, "", "",, "", "",, "", "",, "", "",, "", "",, "", "",, "", "",, "", "",, "", "",, "", "",],
 		github: "",
 	},
 	{
@@ -560,7 +560,7 @@ export const challenges = [
 		],
 		tester: [""],
 		methods: ["", "", "", "", "", ""],
-		explanations: ["", "", "", ""],
+		explanations: ["", "", "", "", "", "",, "", "",, "", "",, "", "",, "", "",, "", "",, "", "",, "", "",, "", "",, "", "",, "", "",],
 		github: "",
 	},
 	{
@@ -575,7 +575,7 @@ export const challenges = [
 		],
 		tester: [""],
 		methods: ["", "", "", "", "", ""],
-		explanations: ["", "", "", ""],
+		explanations: ["", "", "", "", "", "",, "", "",, "", "",, "", "",, "", "",, "", "",, "", "",, "", "",, "", "",, "", "",, "", "",],
 		github: "",
 	},
 	{
@@ -590,7 +590,7 @@ export const challenges = [
 		],
 		tester: [""],
 		methods: ["", "", "", "", "", ""],
-		explanations: ["", "", "", ""],
+		explanations: ["", "", "", "", "", "",, "", "",, "", "",, "", "",, "", "",, "", "",, "", "",, "", "",, "", "",, "", "",, "", "",],
 		github: "",
 	},
 	{
@@ -605,7 +605,7 @@ export const challenges = [
 		],
 		tester: [""],
 		methods: ["", "", "", "", "", ""],
-		explanations: ["", "", "", ""],
+		explanations: ["", "", "", "", "", "",, "", "",, "", "",, "", "",, "", "",, "", "",, "", "",, "", "",, "", "",, "", "",, "", "",],
 		github: "",
 	},
 	{
@@ -620,7 +620,7 @@ export const challenges = [
 		],
 		tester: [""],
 		methods: ["", "", "", "", "", ""],
-		explanations: ["", "", "", ""],
+		explanations: ["", "", "", "", "", "",, "", "",, "", "",, "", "",, "", "",, "", "",, "", "",, "", "",, "", "",, "", "",, "", "",],
 		github: "",
 	},
 	{
@@ -635,7 +635,7 @@ export const challenges = [
 		],
 		tester: [""],
 		methods: ["", "", "", "", "", ""],
-		explanations: ["", "", "", ""],
+		explanations: ["", "", "", "", "", "",, "", "",, "", "",, "", "",, "", "",, "", "",, "", "",, "", "",, "", "",, "", "",, "", "",],
 		github: "",
 	},
 	{
