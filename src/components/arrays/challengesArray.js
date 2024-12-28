@@ -546,7 +546,7 @@ export const challenges = [
 		tester: [""],
 		methods: ["", "", "", "", "", ""],
 		explanations: ["", "", "", "", "", "",, "", "",, "", "",, "", "",, "", "",, "", "",, "", "",, "", "",, "", "",, "", "",, "", "",],
-		github: "",
+		github: "https://github.com/IsabelTizon/js-challenges/blob/main/src/app/scrimbaChallengesJS/exercises/isValid.js",
 	},
 	{
 		id: 18,
