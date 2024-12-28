@@ -24,7 +24,8 @@ import { Aref_Ruqaa } from "next/font/google";
 // import { findTheWinner } from "./pizzaNight";
 // import {contarOvejas} from "./contarOvejas";
 // import {contarOvejas2} from "./contarOvejas";
-import { listGifts} from "./listGifts"
+// import { listGifts} from "./listGifts"
+import { isValid } from "./isValid";
 
 
 export default function courseConsole() {
@@ -183,13 +184,14 @@ export default function courseConsole() {
 // console.log(contarOvejas2(ovejas));
 
 // 18) ListGifts Exercise
-const compra = 'sandía sandía melón _arroz melocotones piña melocotones';
-console.log(listGifts(compra));
+// const compra = 'sandía sandía melón _arroz melocotones piña melocotones';
+// console.log(listGifts(compra));
 // const carta = 'bici coche balón _playstation bici coche peluche';
 // console.log(listGifts(carta));
 
 
-// 19) Exercise
+// 19) Grinch's mischief Exercise
+console.log(isValid());
 // 20) Exercise
 // 21) Exercise
 // 22) Exercise
