@@ -27,14 +27,13 @@ import { Aref_Ruqaa } from "next/font/google";
 // import { listGifts} from "./listGifts"
 import { isValid } from "./isValid";
 
-
 export default function courseConsole() {
-	return (
-		<div>
-			<h1 className="mb-10">Try your exercises on the client side!</h1>
-			<p>This page is to try each exercise by the client side</p>
-		</div>
-	);
+  return (
+    <div>
+      <h1 className="mb-10">Try your exercises on the client side!</h1>
+      <p>This page is to try each exercise by the client side</p>
+    </div>
+  );
 }
 // 1) panic exercise
 // console.log(panic("I'm almost out of coffee"));
@@ -189,9 +188,9 @@ export default function courseConsole() {
 // const carta = 'bici coche balón _playstation bici coche peluche';
 // console.log(listGifts(carta));
 
-
 // 19) Grinch's mischief Exercise
-console.log(isValid());
+const letter = "peluche (bici [coche) triciclo (monopatín) cuerda balón () {)";
+console.log(isValid(letter));
 // 20) Exercise
 // 21) Exercise
 // 22) Exercise
