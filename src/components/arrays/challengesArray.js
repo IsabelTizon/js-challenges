@@ -544,7 +544,7 @@ export const challenges = [
 			"'() bici // ❌'",
 		],
 		tester: ["console.log(isValid(letter));"],
-		methods: ["str.split(' ');", "strArr.filter((item) => {}", "if", "", "", ""],
+		methods: ["str.split(' ');", "strArr.filter((item) => {}", ".startsWith()", ".endsWith()", ".includes()", ""],
 		explanations: ["", "", "", "", "", "",, "", "",, "", "",, "", "",, "", "",, "", "",, "", "",, "", "",, "", "",, "", "",, "", "",],
 		github: "https://github.com/IsabelTizon/js-challenges/blob/main/src/app/scrimbaChallengesJS/exercises/isValid.js",
 	},
