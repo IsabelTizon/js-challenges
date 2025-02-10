@@ -15,23 +15,15 @@ export const homeCourses = [
 	},
 	{
 		id: 3,
-		href: "/scrimbaLearnBasics",
-		name: "Learn JS Basics",
+		href: "/",
+		name: "Learn JS Basics with Games",
 		intro:
-			"Learn the basics of JavaScript by solving 140+ interactive coding challenges. Along the way you will build a game, a browser extension, and even a mobile app!",
+			"Learn the basics of JavaScript building games as hanger, tast list, 8 ball...!",
 	},
 	{
 		id: 4,
-		href: "/scrimbaLearnBasics",
-		name: "Learn JS Basics with Games",
-		intro:
-			"Learn the basics of JavaScript by solving 140+ interactive coding challenges. Along the way you will build a game, a browser extension, and even a mobile app!",
-	},
-	{
-		id: 5,
-		href: "/scrimbaLearnBasics",
-		name: "Learn JS Basics",
-		intro:
-			"Learn the basics of JavaScript by solving 140+ interactive coding challenges. Along the way you will build a game, a browser extension, and even a mobile app!",
+		href: "/",
+		name: "Typescript",
+		intro: "Learn the basics of Typescript",
 	},
 ];
