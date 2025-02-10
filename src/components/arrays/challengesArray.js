@@ -736,7 +736,8 @@ export const challenges = [
 			"",
 			"",
 		],
-		github: "",
+		github:
+			"https://github.com/IsabelTizon/js-challenges/blob/main/src/app/scrimbaChallengesJS/exercises/daysToXmas.js",
 	},
 	{
 		id: 19,
