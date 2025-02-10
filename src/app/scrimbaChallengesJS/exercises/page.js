@@ -25,15 +25,16 @@ import { Aref_Ruqaa } from "next/font/google";
 // import {contarOvejas} from "./contarOvejas";
 // import {contarOvejas2} from "./contarOvejas";
 // import { listGifts} from "./listGifts"
-import { isValid } from "./isValid";
+// import { isValid } from "./isValid";
+import { daysToXmas } from "./daysToXmas";
 
 export default function courseConsole() {
-  return (
-    <div>
-      <h1 className="mb-10">Try your exercises on the client side!</h1>
-      <p>This page is to try each exercise by the client side</p>
-    </div>
-  );
+	return (
+		<div>
+			<h1 className="mb-10">Try your exercises on the client side!</h1>
+			<p>This page is to try each exercise by the client side</p>
+		</div>
+	);
 }
 // 1) panic exercise
 // console.log(panic("I'm almost out of coffee"));
@@ -189,9 +190,12 @@ export default function courseConsole() {
 // console.log(listGifts(carta));
 
 // 19) Grinch's mischief Exercise
-const letter = "peluche (bici [coche) triciclo (monopatín) cuerda balón () {)";
-console.log(isValid(letter));
-// 20) Exercise
+// const letter = "peluche (bici [coche) triciclo (monopatín) cuerda balón () {)";
+// console.log(isValid(letter));
+
+// 20) daystoXmas Exercise
+console.log(daysToXmas);
+
 // 21) Exercise
 // 22) Exercise
 // 23) Exercise
